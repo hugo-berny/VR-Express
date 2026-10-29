@@ -5,6 +5,7 @@
   align-items: center;
   width: 100%;
   background: var(--color-white);
+  overflow-x: clip; /* la imagen del hero sobresale del recuadro */
 }
 
 /* Gutter lateral bajo 1200: BLOQUEADO (A-01), sin padding por ahora. */

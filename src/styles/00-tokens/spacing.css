@@ -2,6 +2,8 @@
 :root {
   /* Espaciado */
   --space-neg-1: -1px;
+  --space-neg-20: -20px;
+  --space-neg-40: -40px;
   --space-2: 2px;
   --space-5: 5px;
   --space-6: 6px;
@@ -18,14 +20,17 @@
   --space-36: 36px;
   --space-38: 38px;
   --space-40: 40px;
+  --space-42: 42px;
   --space-44: 44px;
   --space-55: 55px;
   --space-60: 60px;
   --space-70: 70px;
   --space-80: 80px;
+  --space-110: 110px;
 
   /* Tamaños */
   --size-container: 1200px;
+  --size-hero-img-w: 608px;
   --size-tap: 44px;
   --size-intro-text: 1021px;
   --size-services-h: 485px;

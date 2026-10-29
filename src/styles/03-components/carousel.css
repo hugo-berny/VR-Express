@@ -4,6 +4,7 @@
 }
 
 .c-carousel__track {
+  position: relative; /* offsetLeft de los items relativo al track (carousel.js) */
   display: flex;
   flex-direction: row;
   gap: var(--space-10);

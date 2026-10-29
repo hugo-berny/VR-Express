@@ -8,8 +8,14 @@
   align-items: center;
   padding: var(--space-35) var(--space-38);
   background-color: var(--color-primary);
+  margin-block-start: var(--space-42); /* franja de Figma 1:4055 (109 - header 67) */
   border-radius: var(--radius-17);
   font-family: var(--font-base);
+}
+
+.c-hero > picture {
+  display: block;
+  min-width: 0;
 }
 
 .c-hero__text {
@@ -47,7 +53,14 @@
 
 @media (min-width: 64em) {
   .c-hero {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    padding: 0 var(--space-38);
+    grid-template-columns: minmax(0, 1fr) var(--size-hero-img-w);
+    padding: 0 0 0 var(--space-38);
+  }
+
+  /* Imagen de Figma 1:4060 (608x552): mas grande que su columna y sobresale del recuadro azul */
+  .c-hero > picture {
+    inline-size: var(--size-hero-img-w);
+    justify-self: end;
+    margin: var(--space-neg-20) var(--space-neg-40) var(--space-neg-20) 0;
   }
 }
