@@ -1,0 +1,123 @@
+/* c-services — specs/home.md (1:4064, comp 1:4140; filas 1:4168/1:4169) */
+.c-services {
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  padding-block: var(--space-60);
+  background-color: var(--color-primary-15); /* Figma 1:4064: ancho completo */
+  font-family: var(--font-base);
+}
+
+.c-services__content {
+  min-width: 0;
+  box-sizing: border-box;
+  max-inline-size: var(--size-container);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-neg-1);
+}
+
+.c-services__title {
+  min-height: var(--size-services-title-h);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-32);
+  color: var(--color-primary);
+}
+
+.c-services__list {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c-services__row {
+  box-sizing: border-box;
+  min-width: 0;
+  overflow-wrap: break-word;
+  display: grid;
+  /* mobile: nombre + enlace; descripcion debajo */
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--space-10) var(--space-40);
+  padding: var(--space-6) var(--space-10);
+  border-bottom: var(--border-1) solid var(--color-text-muted);
+}
+
+.c-services__row--first {
+  border-top: var(--border-1) solid var(--color-text-muted);
+}
+
+.c-services__name {
+  margin: 0;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-16);
+  color: var(--color-black);
+}
+
+.c-services__desc {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin: 0;
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-14);
+  color: var(--color-text-muted);
+}
+
+.c-services__link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--size-tap);
+  min-height: var(--size-tap);
+  color: var(--color-primary);
+}
+
+/* circulo visual 40x40 dentro del area tactil >=44 */
+.c-services__link::before {
+  content: "";
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: var(--size-link-btn);
+  height: var(--size-link-btn);
+  transform: translate(-50%, -50%);
+  border-radius: var(--radius-20);
+  background: var(--color-primary-0);
+}
+
+.c-services__link:hover::before {
+  background: var(--color-primary-15);
+}
+
+.c-services__link:focus-visible {
+  outline: var(--stroke-2-5) solid var(--color-primary);
+  outline-offset: var(--space-2);
+  border-radius: var(--radius-20);
+}
+
+.c-services__icon {
+  position: relative;
+  width: var(--size-link-icon-w);
+  height: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--stroke-2-5);
+}
+
+@media (min-width: 48em) {
+  .c-services__row {
+    /* PROVISIONAL: reparto de columnas no definido en spec */
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) auto;
+  }
+
+  .c-services__desc {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

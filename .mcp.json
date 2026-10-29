@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "figma": {
+      "command": "sh",
+      "args": ["-c", "set -a; [ -f ./.env ] && . ./.env; exec npx -y figma-developer-mcp --stdio"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    }
+  }
+}

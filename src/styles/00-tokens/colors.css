@@ -1,0 +1,14 @@
+/* Unica fuente de colores. Valores exactos de Figma. Naming: --color-<rol>-<escala> */
+:root {
+  /* Azul del logo, definido por el usuario: rgb(30,115,233). Sustituye el provisional de A-05 */
+  --color-primary: #1E73E9;
+  --color-primary-15: rgba(30,115,233,0.15); /* derivado de --color-primary */
+  --color-primary-0: rgba(30,115,233,0); /* derivado de --color-primary */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-accent: #FFBA0B;
+  --color-text-muted: rgba(0,0,0,0.6);
+  --color-text-soft: rgba(0,0,0,0.75);
+  --color-text-inverse-soft: rgba(255,255,255,0.85);
+  --color-placeholder: #D9D9D9;
+}

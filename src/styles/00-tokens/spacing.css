@@ -1,0 +1,64 @@
+/* Escala de espacio, tamaños de layout y ratios. Valores exactos de Figma. Naming: --space-<n>, --size-*, --ratio-* */
+:root {
+  /* Espaciado */
+  --space-neg-1: -1px;
+  --space-2: 2px;
+  --space-5: 5px;
+  --space-6: 6px;
+  --space-7: 7px;
+  --space-10: 10px;
+  /* PROVISIONAL: A-13 (padding vert. del header, instancia 1:4095) */
+  --space-12: 12px;
+  --space-19: 19px;
+  --space-20: 20px;
+  --space-25: 25px;
+  --space-30: 30px;
+  --space-35: 35px;
+  /* PROVISIONAL: A-02 (gap de rejilla de testimonios; layout 4 columnas provisional) */
+  --space-36: 36px;
+  --space-38: 38px;
+  --space-40: 40px;
+  --space-44: 44px;
+  --space-55: 55px;
+  --space-60: 60px;
+  --space-70: 70px;
+  --space-80: 80px;
+
+  /* Tamaños */
+  --size-container: 1200px;
+  --size-tap: 44px;
+  --size-intro-text: 1021px;
+  --size-services-h: 485px;
+  --size-services-title-h: 64px;
+  --size-testimonials-title-h: 38px;
+  --size-review-author: 220px;
+  --size-star: 28px;
+  --size-avatar: 39px;
+  --size-partners-h: 310px;
+  --size-partner-logo: 101px;
+  --size-cta-btn-w: 177px;
+  --size-cta-btn-h: 42px;
+  --size-carousel-h: 250px;
+  /* PROVISIONAL: A-13 (instancia de header 1:4095) */
+  --size-header-h: 67px;
+  --size-logo-w: 212px;
+  --size-logo-h: 43px;
+  --size-contact-btn-w: 108px;
+  --size-contact-btn-h: 29px;
+  --size-link-btn: 40px;
+  --size-link-icon-w: 28px;
+  --size-social-h: 28px;
+  --size-social-fb: 28px;
+  --size-social-ig: 28px;
+  --size-social-tt: 25px;
+  --size-social-x: 30px;
+  --size-copyright-w: 325px;
+
+  /* Ratios (aspect-ratio) */
+  --ratio-hero: 608 / 552;
+  --ratio-carousel-377: 377 / 250;
+  --ratio-carousel-250: 250 / 250;
+  --ratio-carousel-200: 200 / 250;
+  --ratio-carousel-194: 194 / 250;
+  --ratio-carousel-189: 189 / 250;
+}

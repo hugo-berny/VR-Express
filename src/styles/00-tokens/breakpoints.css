@@ -1,0 +1,9 @@
+/* Referencia de breakpoints (mobile-first, min-width). Las custom properties NO funcionan dentro de @media,
+   por eso los valores se escriben literalmente en @media y SOLO estos tres estan permitidos:
+   --bp-md: 48em (768px)   --bp-lg: 64em (1024px)   --bp-xl: 90em (1440px)
+   tools/audit-tokens.mjs rechaza cualquier otro valor en @media. */
+:root {
+  --bp-md: 48em;
+  --bp-lg: 64em;
+  --bp-xl: 90em;
+}

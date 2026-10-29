@@ -1,0 +1,8 @@
+html { -webkit-text-size-adjust: 100%; }
+body {
+  min-height: 100dvh;
+  background: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font-base);
+  font-size: var(--fs-16);
+}

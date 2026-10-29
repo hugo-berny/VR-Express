@@ -1,0 +1,1135 @@
+{
+  "_doc": "Indice de assets. Clave = ruta relativa a src/assets. Reemplazar un asset = sobrescribir la misma ruta.",
+  "assets": {
+    "images/optimized/header-logo-vrexpress": {
+      "figmaNode": "1:4157",
+      "type": "image",
+      "raw": "images/raw/header-logo-vrexpress.png",
+      "width": 1922,
+      "height": 390,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/header-logo-vrexpress-400.avif 400w, images/optimized/header-logo-vrexpress-800.avif 800w, images/optimized/header-logo-vrexpress-1200.avif 1200w, images/optimized/header-logo-vrexpress-1920.avif 1920w",
+        "webp": "images/optimized/header-logo-vrexpress-400.webp 400w, images/optimized/header-logo-vrexpress-800.webp 800w, images/optimized/header-logo-vrexpress-1200.webp 1200w, images/optimized/header-logo-vrexpress-1920.webp 1920w",
+        "png": "images/optimized/header-logo-vrexpress-400.png 400w, images/optimized/header-logo-vrexpress-800.png 800w, images/optimized/header-logo-vrexpress-1200.png 1200w, images/optimized/header-logo-vrexpress-1920.png 1920w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/header-logo-vrexpress-400.avif",
+          "bytes": 8119
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/header-logo-vrexpress-400.webp",
+          "bytes": 8374
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/header-logo-vrexpress-400.png",
+          "bytes": 6874
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/header-logo-vrexpress-800.avif",
+          "bytes": 15010
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/header-logo-vrexpress-800.webp",
+          "bytes": 17840
+        },
+        {
+          "format": "png",
+          "width": 800,
+          "path": "images/optimized/header-logo-vrexpress-800.png",
+          "bytes": 12540
+        },
+        {
+          "format": "avif",
+          "width": 1200,
+          "path": "images/optimized/header-logo-vrexpress-1200.avif",
+          "bytes": 22124
+        },
+        {
+          "format": "webp",
+          "width": 1200,
+          "path": "images/optimized/header-logo-vrexpress-1200.webp",
+          "bytes": 26252
+        },
+        {
+          "format": "png",
+          "width": 1200,
+          "path": "images/optimized/header-logo-vrexpress-1200.png",
+          "bytes": 19239
+        },
+        {
+          "format": "avif",
+          "width": 1920,
+          "path": "images/optimized/header-logo-vrexpress-1920.avif",
+          "bytes": 30852
+        },
+        {
+          "format": "webp",
+          "width": 1920,
+          "path": "images/optimized/header-logo-vrexpress-1920.webp",
+          "bytes": 39694
+        },
+        {
+          "format": "png",
+          "width": 1920,
+          "path": "images/optimized/header-logo-vrexpress-1920.png",
+          "bytes": 26894
+        }
+      ],
+      "originalBytes": 25472,
+      "maxWebpBytes": 39694
+    },
+    "images/optimized/home-carrusel-1": {
+      "figmaNode": "1:4087",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-1.jpg",
+      "width": 736,
+      "height": 736,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-1-400.avif 400w, images/optimized/home-carrusel-1-736.avif 736w",
+        "webp": "images/optimized/home-carrusel-1-400.webp 400w, images/optimized/home-carrusel-1-736.webp 736w",
+        "jpg": "images/optimized/home-carrusel-1-400.jpg 400w, images/optimized/home-carrusel-1-736.jpg 736w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-1-400.avif",
+          "bytes": 22392
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-1-400.webp",
+          "bytes": 25076
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-1-400.jpg",
+          "bytes": 26575
+        },
+        {
+          "format": "avif",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-1-736.avif",
+          "bytes": 69437
+        },
+        {
+          "format": "webp",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-1-736.webp",
+          "bytes": 82336
+        },
+        {
+          "format": "jpg",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-1-736.jpg",
+          "bytes": 93778
+        }
+      ],
+      "originalBytes": 103935,
+      "maxWebpBytes": 82336
+    },
+    "images/optimized/home-carrusel-2": {
+      "figmaNode": "1:4088",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-2.jpg",
+      "width": 520,
+      "height": 650,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-2-400.avif 400w, images/optimized/home-carrusel-2-520.avif 520w",
+        "webp": "images/optimized/home-carrusel-2-400.webp 400w, images/optimized/home-carrusel-2-520.webp 520w",
+        "jpg": "images/optimized/home-carrusel-2-400.jpg 400w, images/optimized/home-carrusel-2-520.jpg 520w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-2-400.avif",
+          "bytes": 5082
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-2-400.webp",
+          "bytes": 8712
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-2-400.jpg",
+          "bytes": 14941
+        },
+        {
+          "format": "avif",
+          "width": 520,
+          "path": "images/optimized/home-carrusel-2-520.avif",
+          "bytes": 7095
+        },
+        {
+          "format": "webp",
+          "width": 520,
+          "path": "images/optimized/home-carrusel-2-520.webp",
+          "bytes": 12378
+        },
+        {
+          "format": "jpg",
+          "width": 520,
+          "path": "images/optimized/home-carrusel-2-520.jpg",
+          "bytes": 21324
+        }
+      ],
+      "originalBytes": 24224,
+      "maxWebpBytes": 12378
+    },
+    "images/optimized/home-carrusel-3": {
+      "figmaNode": "1:4089",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-3.jpg",
+      "width": 736,
+      "height": 946,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-3-400.avif 400w, images/optimized/home-carrusel-3-736.avif 736w",
+        "webp": "images/optimized/home-carrusel-3-400.webp 400w, images/optimized/home-carrusel-3-736.webp 736w",
+        "jpg": "images/optimized/home-carrusel-3-400.jpg 400w, images/optimized/home-carrusel-3-736.jpg 736w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-3-400.avif",
+          "bytes": 19804
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-3-400.webp",
+          "bytes": 24746
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-3-400.jpg",
+          "bytes": 31294
+        },
+        {
+          "format": "avif",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-3-736.avif",
+          "bytes": 46953
+        },
+        {
+          "format": "webp",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-3-736.webp",
+          "bytes": 60780
+        },
+        {
+          "format": "jpg",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-3-736.jpg",
+          "bytes": 87114
+        }
+      ],
+      "originalBytes": 97171,
+      "maxWebpBytes": 60780
+    },
+    "images/optimized/home-carrusel-4": {
+      "figmaNode": "1:4090",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-4.jpg",
+      "width": 736,
+      "height": 488,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-4-400.avif 400w, images/optimized/home-carrusel-4-736.avif 736w",
+        "webp": "images/optimized/home-carrusel-4-400.webp 400w, images/optimized/home-carrusel-4-736.webp 736w",
+        "jpg": "images/optimized/home-carrusel-4-400.jpg 400w, images/optimized/home-carrusel-4-736.jpg 736w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-4-400.avif",
+          "bytes": 6400
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-4-400.webp",
+          "bytes": 8374
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-4-400.jpg",
+          "bytes": 10769
+        },
+        {
+          "format": "avif",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-4-736.avif",
+          "bytes": 23323
+        },
+        {
+          "format": "webp",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-4-736.webp",
+          "bytes": 29444
+        },
+        {
+          "format": "jpg",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-4-736.jpg",
+          "bytes": 37404
+        }
+      ],
+      "originalBytes": 41755,
+      "maxWebpBytes": 29444
+    },
+    "images/optimized/home-carrusel-5": {
+      "figmaNode": "1:4091",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-5.jpg",
+      "width": 1080,
+      "height": 1350,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-5-400.avif 400w, images/optimized/home-carrusel-5-800.avif 800w, images/optimized/home-carrusel-5-1080.avif 1080w",
+        "webp": "images/optimized/home-carrusel-5-400.webp 400w, images/optimized/home-carrusel-5-800.webp 800w, images/optimized/home-carrusel-5-1080.webp 1080w",
+        "jpg": "images/optimized/home-carrusel-5-400.jpg 400w, images/optimized/home-carrusel-5-800.jpg 800w, images/optimized/home-carrusel-5-1080.jpg 1080w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-5-400.avif",
+          "bytes": 32466
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-5-400.webp",
+          "bytes": 37180
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-5-400.jpg",
+          "bytes": 42536
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/home-carrusel-5-800.avif",
+          "bytes": 88024
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/home-carrusel-5-800.webp",
+          "bytes": 111238
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/home-carrusel-5-800.jpg",
+          "bytes": 137240
+        },
+        {
+          "format": "avif",
+          "width": 1080,
+          "path": "images/optimized/home-carrusel-5-1080.avif",
+          "bytes": 143894
+        },
+        {
+          "format": "webp",
+          "width": 1080,
+          "path": "images/optimized/home-carrusel-5-1080.webp",
+          "bytes": 174722
+        },
+        {
+          "format": "jpg",
+          "width": 1080,
+          "path": "images/optimized/home-carrusel-5-1080.jpg",
+          "bytes": 224404
+        }
+      ],
+      "originalBytes": 253524,
+      "maxWebpBytes": 174722
+    },
+    "images/optimized/home-carrusel-6": {
+      "figmaNode": "1:4092",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-6.jpg",
+      "width": 736,
+      "height": 977,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-6-400.avif 400w, images/optimized/home-carrusel-6-736.avif 736w",
+        "webp": "images/optimized/home-carrusel-6-400.webp 400w, images/optimized/home-carrusel-6-736.webp 736w",
+        "jpg": "images/optimized/home-carrusel-6-400.jpg 400w, images/optimized/home-carrusel-6-736.jpg 736w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-6-400.avif",
+          "bytes": 10385
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-6-400.webp",
+          "bytes": 17260
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-6-400.jpg",
+          "bytes": 19135
+        },
+        {
+          "format": "avif",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-6-736.avif",
+          "bytes": 32657
+        },
+        {
+          "format": "webp",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-6-736.webp",
+          "bytes": 52976
+        },
+        {
+          "format": "jpg",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-6-736.jpg",
+          "bytes": 66713
+        }
+      ],
+      "originalBytes": 75956,
+      "maxWebpBytes": 52976
+    },
+    "images/optimized/home-carrusel-7": {
+      "figmaNode": "1:4093",
+      "type": "image",
+      "raw": "images/raw/home-carrusel-7.jpg",
+      "width": 736,
+      "height": 736,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-carrusel-7-400.avif 400w, images/optimized/home-carrusel-7-736.avif 736w",
+        "webp": "images/optimized/home-carrusel-7-400.webp 400w, images/optimized/home-carrusel-7-736.webp 736w",
+        "jpg": "images/optimized/home-carrusel-7-400.jpg 400w, images/optimized/home-carrusel-7-736.jpg 736w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-7-400.avif",
+          "bytes": 35832
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-7-400.webp",
+          "bytes": 37792
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-carrusel-7-400.jpg",
+          "bytes": 37949
+        },
+        {
+          "format": "avif",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-7-736.avif",
+          "bytes": 101281
+        },
+        {
+          "format": "webp",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-7-736.webp",
+          "bytes": 117176
+        },
+        {
+          "format": "jpg",
+          "width": 736,
+          "path": "images/optimized/home-carrusel-7-736.jpg",
+          "bytes": 125610
+        }
+      ],
+      "originalBytes": 140042,
+      "maxWebpBytes": 117176
+    },
+    "images/optimized/home-hero-principal": {
+      "figmaNode": "1:4060",
+      "type": "image",
+      "raw": "images/raw/home-hero-principal.png",
+      "width": 4000,
+      "height": 3000,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-hero-principal-400.avif 400w, images/optimized/home-hero-principal-800.avif 800w, images/optimized/home-hero-principal-1200.avif 1200w, images/optimized/home-hero-principal-1920.avif 1920w",
+        "webp": "images/optimized/home-hero-principal-400.webp 400w, images/optimized/home-hero-principal-800.webp 800w, images/optimized/home-hero-principal-1200.webp 1200w, images/optimized/home-hero-principal-1920.webp 1920w",
+        "png": "images/optimized/home-hero-principal-400.png 400w, images/optimized/home-hero-principal-800.png 800w, images/optimized/home-hero-principal-1200.png 1200w, images/optimized/home-hero-principal-1920.png 1920w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-hero-principal-400.avif",
+          "bytes": 13600
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-hero-principal-400.webp",
+          "bytes": 19470
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/home-hero-principal-400.png",
+          "bytes": 25016
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/home-hero-principal-800.avif",
+          "bytes": 31501
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/home-hero-principal-800.webp",
+          "bytes": 49966
+        },
+        {
+          "format": "png",
+          "width": 800,
+          "path": "images/optimized/home-hero-principal-800.png",
+          "bytes": 73291
+        },
+        {
+          "format": "avif",
+          "width": 1200,
+          "path": "images/optimized/home-hero-principal-1200.avif",
+          "bytes": 49274
+        },
+        {
+          "format": "webp",
+          "width": 1200,
+          "path": "images/optimized/home-hero-principal-1200.webp",
+          "bytes": 85522
+        },
+        {
+          "format": "png",
+          "width": 1200,
+          "path": "images/optimized/home-hero-principal-1200.png",
+          "bytes": 146826
+        },
+        {
+          "format": "avif",
+          "width": 1920,
+          "path": "images/optimized/home-hero-principal-1920.avif",
+          "bytes": 83359
+        },
+        {
+          "format": "webp",
+          "width": 1920,
+          "path": "images/optimized/home-hero-principal-1920.webp",
+          "bytes": 163396
+        },
+        {
+          "format": "png",
+          "width": 1920,
+          "path": "images/optimized/home-hero-principal-1920.png",
+          "bytes": 347535
+        }
+      ],
+      "originalBytes": 5510542,
+      "maxWebpBytes": 163396
+    },
+    "images/optimized/home-redes-facebook": {
+      "figmaNode": "1:4408",
+      "type": "image",
+      "raw": "images/raw/home-redes-facebook.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-redes-facebook-400.avif 400w, images/optimized/home-redes-facebook-512.avif 512w",
+        "webp": "images/optimized/home-redes-facebook-400.webp 400w, images/optimized/home-redes-facebook-512.webp 512w",
+        "png": "images/optimized/home-redes-facebook-400.png 400w, images/optimized/home-redes-facebook-512.png 512w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-redes-facebook-400.avif",
+          "bytes": 5089
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-redes-facebook-400.webp",
+          "bytes": 5616
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/home-redes-facebook-400.png",
+          "bytes": 6872
+        },
+        {
+          "format": "avif",
+          "width": 512,
+          "path": "images/optimized/home-redes-facebook-512.avif",
+          "bytes": 6558
+        },
+        {
+          "format": "webp",
+          "width": 512,
+          "path": "images/optimized/home-redes-facebook-512.webp",
+          "bytes": 4292
+        },
+        {
+          "format": "png",
+          "width": 512,
+          "path": "images/optimized/home-redes-facebook-512.png",
+          "bytes": 4140
+        }
+      ],
+      "originalBytes": 3040,
+      "maxWebpBytes": 5616
+    },
+    "images/optimized/home-redes-instagram": {
+      "figmaNode": "1:4409",
+      "type": "image",
+      "raw": "images/raw/home-redes-instagram.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-redes-instagram-400.avif 400w, images/optimized/home-redes-instagram-512.avif 512w",
+        "webp": "images/optimized/home-redes-instagram-400.webp 400w, images/optimized/home-redes-instagram-512.webp 512w",
+        "png": "images/optimized/home-redes-instagram-400.png 400w, images/optimized/home-redes-instagram-512.png 512w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-redes-instagram-400.avif",
+          "bytes": 7947
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-redes-instagram-400.webp",
+          "bytes": 10458
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/home-redes-instagram-400.png",
+          "bytes": 11264
+        },
+        {
+          "format": "avif",
+          "width": 512,
+          "path": "images/optimized/home-redes-instagram-512.avif",
+          "bytes": 10639
+        },
+        {
+          "format": "webp",
+          "width": 512,
+          "path": "images/optimized/home-redes-instagram-512.webp",
+          "bytes": 7376
+        },
+        {
+          "format": "png",
+          "width": 512,
+          "path": "images/optimized/home-redes-instagram-512.png",
+          "bytes": 6557
+        }
+      ],
+      "originalBytes": 5522,
+      "maxWebpBytes": 10458
+    },
+    "images/optimized/home-redes-tiktok": {
+      "figmaNode": "1:4410",
+      "type": "image",
+      "raw": "images/raw/home-redes-tiktok.webp",
+      "width": 304,
+      "height": 350,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-redes-tiktok-304.avif 304w",
+        "webp": "images/optimized/home-redes-tiktok-304.webp 304w",
+        "png": "images/optimized/home-redes-tiktok-304.png 304w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 304,
+          "path": "images/optimized/home-redes-tiktok-304.avif",
+          "bytes": 1730
+        },
+        {
+          "format": "webp",
+          "width": 304,
+          "path": "images/optimized/home-redes-tiktok-304.webp",
+          "bytes": 1608
+        },
+        {
+          "format": "png",
+          "width": 304,
+          "path": "images/optimized/home-redes-tiktok-304.png",
+          "bytes": 1755
+        }
+      ],
+      "originalBytes": 1252,
+      "maxWebpBytes": 1608
+    },
+    "images/optimized/home-redes-x": {
+      "figmaNode": "1:4411",
+      "type": "image",
+      "raw": "images/raw/home-redes-x.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-redes-x-400.avif 400w, images/optimized/home-redes-x-512.avif 512w",
+        "webp": "images/optimized/home-redes-x-400.webp 400w, images/optimized/home-redes-x-512.webp 512w",
+        "png": "images/optimized/home-redes-x-400.png 400w, images/optimized/home-redes-x-512.png 512w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-redes-x-400.avif",
+          "bytes": 8185
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-redes-x-400.webp",
+          "bytes": 9426
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/home-redes-x-400.png",
+          "bytes": 9958
+        },
+        {
+          "format": "avif",
+          "width": 512,
+          "path": "images/optimized/home-redes-x-512.avif",
+          "bytes": 11488
+        },
+        {
+          "format": "webp",
+          "width": 512,
+          "path": "images/optimized/home-redes-x-512.webp",
+          "bytes": 5562
+        },
+        {
+          "format": "png",
+          "width": 512,
+          "path": "images/optimized/home-redes-x-512.png",
+          "bytes": 4303
+        }
+      ],
+      "originalBytes": 4192,
+      "maxWebpBytes": 9426
+    },
+    "images/optimized/home-socio-dhl": {
+      "figmaNode": "1:4075",
+      "type": "image",
+      "raw": "images/raw/home-socio-dhl.png",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-socio-dhl-400.avif 400w, images/optimized/home-socio-dhl-512.avif 512w",
+        "webp": "images/optimized/home-socio-dhl-400.webp 400w, images/optimized/home-socio-dhl-512.webp 512w",
+        "png": "images/optimized/home-socio-dhl-400.png 400w, images/optimized/home-socio-dhl-512.png 512w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-socio-dhl-400.avif",
+          "bytes": 3326
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-socio-dhl-400.webp",
+          "bytes": 6904
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/home-socio-dhl-400.png",
+          "bytes": 9287
+        },
+        {
+          "format": "avif",
+          "width": 512,
+          "path": "images/optimized/home-socio-dhl-512.avif",
+          "bytes": 4203
+        },
+        {
+          "format": "webp",
+          "width": 512,
+          "path": "images/optimized/home-socio-dhl-512.webp",
+          "bytes": 6114
+        },
+        {
+          "format": "png",
+          "width": 512,
+          "path": "images/optimized/home-socio-dhl-512.png",
+          "bytes": 7363
+        }
+      ],
+      "originalBytes": 15238,
+      "maxWebpBytes": 6904
+    },
+    "images/optimized/home-socio-estafeta": {
+      "figmaNode": "1:4076",
+      "type": "image",
+      "raw": "images/raw/home-socio-estafeta.webp",
+      "width": 500,
+      "height": 281,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-socio-estafeta-400.avif 400w, images/optimized/home-socio-estafeta-500.avif 500w",
+        "webp": "images/optimized/home-socio-estafeta-400.webp 400w, images/optimized/home-socio-estafeta-500.webp 500w",
+        "jpg": "images/optimized/home-socio-estafeta-400.jpg 400w, images/optimized/home-socio-estafeta-500.jpg 500w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-socio-estafeta-400.avif",
+          "bytes": 1537
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-socio-estafeta-400.webp",
+          "bytes": 1784
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-socio-estafeta-400.jpg",
+          "bytes": 2455
+        },
+        {
+          "format": "avif",
+          "width": 500,
+          "path": "images/optimized/home-socio-estafeta-500.avif",
+          "bytes": 2013
+        },
+        {
+          "format": "webp",
+          "width": 500,
+          "path": "images/optimized/home-socio-estafeta-500.webp",
+          "bytes": 2412
+        },
+        {
+          "format": "jpg",
+          "width": 500,
+          "path": "images/optimized/home-socio-estafeta-500.jpg",
+          "bytes": 3387
+        }
+      ],
+      "originalBytes": 2636,
+      "maxWebpBytes": 2412
+    },
+    "images/optimized/home-socio-fedex": {
+      "figmaNode": "1:4079",
+      "type": "image",
+      "raw": "images/raw/home-socio-fedex.jpg",
+      "width": 1200,
+      "height": 800,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-socio-fedex-400.avif 400w, images/optimized/home-socio-fedex-800.avif 800w, images/optimized/home-socio-fedex-1200.avif 1200w",
+        "webp": "images/optimized/home-socio-fedex-400.webp 400w, images/optimized/home-socio-fedex-800.webp 800w, images/optimized/home-socio-fedex-1200.webp 1200w",
+        "jpg": "images/optimized/home-socio-fedex-400.jpg 400w, images/optimized/home-socio-fedex-800.jpg 800w, images/optimized/home-socio-fedex-1200.jpg 1200w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-socio-fedex-400.avif",
+          "bytes": 1610
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-socio-fedex-400.webp",
+          "bytes": 2288
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-socio-fedex-400.jpg",
+          "bytes": 4083
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/home-socio-fedex-800.avif",
+          "bytes": 2586
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/home-socio-fedex-800.webp",
+          "bytes": 4508
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/home-socio-fedex-800.jpg",
+          "bytes": 8816
+        },
+        {
+          "format": "avif",
+          "width": 1200,
+          "path": "images/optimized/home-socio-fedex-1200.avif",
+          "bytes": 3322
+        },
+        {
+          "format": "webp",
+          "width": 1200,
+          "path": "images/optimized/home-socio-fedex-1200.webp",
+          "bytes": 6816
+        },
+        {
+          "format": "jpg",
+          "width": 1200,
+          "path": "images/optimized/home-socio-fedex-1200.jpg",
+          "bytes": 13661
+        }
+      ],
+      "originalBytes": 67390,
+      "maxWebpBytes": 6816
+    },
+    "images/optimized/home-socio-paqueteexpress": {
+      "figmaNode": "1:4077",
+      "type": "image",
+      "raw": "images/raw/home-socio-paqueteexpress.png",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/home-socio-paqueteexpress-400.avif 400w, images/optimized/home-socio-paqueteexpress-512.avif 512w",
+        "webp": "images/optimized/home-socio-paqueteexpress-400.webp 400w, images/optimized/home-socio-paqueteexpress-512.webp 512w",
+        "png": "images/optimized/home-socio-paqueteexpress-400.png 400w, images/optimized/home-socio-paqueteexpress-512.png 512w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-socio-paqueteexpress-400.avif",
+          "bytes": 5306
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-socio-paqueteexpress-400.webp",
+          "bytes": 7396
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/home-socio-paqueteexpress-400.png",
+          "bytes": 9922
+        },
+        {
+          "format": "avif",
+          "width": 512,
+          "path": "images/optimized/home-socio-paqueteexpress-512.avif",
+          "bytes": 5620
+        },
+        {
+          "format": "webp",
+          "width": 512,
+          "path": "images/optimized/home-socio-paqueteexpress-512.webp",
+          "bytes": 8508
+        },
+        {
+          "format": "png",
+          "width": 512,
+          "path": "images/optimized/home-socio-paqueteexpress-512.png",
+          "bytes": 7340
+        }
+      ],
+      "originalBytes": 16160,
+      "maxWebpBytes": 8508
+    },
+    "images/optimized/home-socio-sinmarca": {
+      "figmaNode": "1:4080",
+      "type": "image",
+      "raw": "images/raw/home-socio-sinmarca.png",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-socio-sinmarca-400.avif 400w, images/optimized/home-socio-sinmarca-512.avif 512w",
+        "webp": "images/optimized/home-socio-sinmarca-400.webp 400w, images/optimized/home-socio-sinmarca-512.webp 512w",
+        "jpg": "images/optimized/home-socio-sinmarca-400.jpg 400w, images/optimized/home-socio-sinmarca-512.jpg 512w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-socio-sinmarca-400.avif",
+          "bytes": 3280
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-socio-sinmarca-400.webp",
+          "bytes": 5062
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-socio-sinmarca-400.jpg",
+          "bytes": 8542
+        },
+        {
+          "format": "avif",
+          "width": 512,
+          "path": "images/optimized/home-socio-sinmarca-512.avif",
+          "bytes": 4210
+        },
+        {
+          "format": "webp",
+          "width": 512,
+          "path": "images/optimized/home-socio-sinmarca-512.webp",
+          "bytes": 6618
+        },
+        {
+          "format": "jpg",
+          "width": 512,
+          "path": "images/optimized/home-socio-sinmarca-512.jpg",
+          "bytes": 11302
+        }
+      ],
+      "originalBytes": 50219,
+      "maxWebpBytes": 6618
+    },
+    "images/optimized/home-socio-ups": {
+      "figmaNode": "1:4078",
+      "type": "image",
+      "raw": "images/raw/home-socio-ups.webp",
+      "width": 958,
+      "height": 575,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/home-socio-ups-400.avif 400w, images/optimized/home-socio-ups-800.avif 800w, images/optimized/home-socio-ups-958.avif 958w",
+        "webp": "images/optimized/home-socio-ups-400.webp 400w, images/optimized/home-socio-ups-800.webp 800w, images/optimized/home-socio-ups-958.webp 958w",
+        "jpg": "images/optimized/home-socio-ups-400.jpg 400w, images/optimized/home-socio-ups-800.jpg 800w, images/optimized/home-socio-ups-958.jpg 958w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/home-socio-ups-400.avif",
+          "bytes": 2200
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/home-socio-ups-400.webp",
+          "bytes": 3074
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/home-socio-ups-400.jpg",
+          "bytes": 5900
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/home-socio-ups-800.avif",
+          "bytes": 3390
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/home-socio-ups-800.webp",
+          "bytes": 5958
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/home-socio-ups-800.jpg",
+          "bytes": 13036
+        },
+        {
+          "format": "avif",
+          "width": 958,
+          "path": "images/optimized/home-socio-ups-958.avif",
+          "bytes": 4541
+        },
+        {
+          "format": "webp",
+          "width": 958,
+          "path": "images/optimized/home-socio-ups-958.webp",
+          "bytes": 7860
+        },
+        {
+          "format": "jpg",
+          "width": 958,
+          "path": "images/optimized/home-socio-ups-958.jpg",
+          "bytes": 15178
+        }
+      ],
+      "originalBytes": 8902,
+      "maxWebpBytes": 7860
+    },
+    "fonts/global-afacad-variable": {
+      "type": "font",
+      "format": "woff2",
+      "path": "fonts/global-afacad-variable.woff2",
+      "bytes": 42452,
+      "families": "Afacad",
+      "weights": "variable wght (500/600/700 cubiertos)",
+      "note": "original en _inbox movido directo (sin raw copy); no se generan variantes"
+    },
+    "icons/review-star.svg": {
+      "figmaNode": "1:4352",
+      "type": "icon",
+      "path": "icons/review-star.svg",
+      "note": "PROVISIONAL: dibujado a mano, no exportado de Figma (API 429); sustituir por el vector de Figma"
+    }
+  }
+}

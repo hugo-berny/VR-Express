@@ -1,0 +1,27 @@
+/* Unico punto de entrada CSS. Solo orden de capas + imports. Sin reglas aqui. */
+@layer tokens, base, layout, components, utilities;
+
+@import url("00-tokens/colors.css") layer(tokens);
+@import url("00-tokens/typography.css") layer(tokens);
+@import url("00-tokens/spacing.css") layer(tokens);
+@import url("00-tokens/effects.css") layer(tokens);
+@import url("00-tokens/breakpoints.css") layer(tokens);
+
+@import url("01-base/reset.css") layer(base);
+@import url("01-base/fonts.css") layer(base);
+@import url("01-base/base.css") layer(base);
+
+@import url("02-layout/page.css") layer(layout);
+
+@import url("03-components/header.css") layer(components);
+@import url("03-components/hero.css") layer(components);
+@import url("03-components/intro.css") layer(components);
+@import url("03-components/services.css") layer(components);
+@import url("03-components/testimonials.css") layer(components);
+@import url("03-components/review.css") layer(components);
+@import url("03-components/partners.css") layer(components);
+@import url("03-components/cta.css") layer(components);
+@import url("03-components/carousel.css") layer(components);
+@import url("03-components/footer.css") layer(components);
+
+@import url("04-utilities/a11y.css") layer(utilities);

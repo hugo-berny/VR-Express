@@ -1,0 +1,24 @@
+.l-page {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: var(--color-white);
+}
+
+/* Gutter lateral bajo 1200: BLOQUEADO (A-01), sin padding por ahora. */
+.l-container {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  max-width: min(100%, var(--size-container));
+  margin-inline: auto;
+}
+
+/* Hijos flex de l-page (main, header, footer): sin esto el ancho auto = max-content y desborda */
+.l-page > * {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+}

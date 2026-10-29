@@ -1,0 +1,39 @@
+/* c-intro (Figma 1:4061). Medidas 375/768 BLOQUEADAS en spec: se usan las de escritorio en todos los anchos. */
+.c-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-20);
+  padding-block: var(--space-80);
+  text-align: center;
+}
+
+.c-intro__title {
+  margin: 0;
+  font-family: var(--font-base);
+  font-size: var(--fs-32);
+  font-weight: var(--fw-semibold);
+  color: var(--color-primary);
+}
+
+.c-intro__text {
+  margin: 0;
+  max-inline-size: var(--size-intro-text);
+  font-family: var(--font-base);
+  font-size: var(--fs-24);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-soft);
+}
+
+.c-intro__text strong {
+  font-weight: var(--fw-bold);
+}
+
+.c-intro__highlight {
+  font-weight: var(--fw-semibold);
+  color: var(--color-accent);
+}
+
+.c-intro__muted {
+  color: var(--color-text-muted);
+}

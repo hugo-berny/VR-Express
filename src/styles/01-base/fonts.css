@@ -1,0 +1,8 @@
+/* Afacad variable (assets/fonts/global-afacad-variable.woff2). Fallback: Arial via --font-base. */
+@font-face {
+  font-family: "Afacad";
+  src: url("../../assets/fonts/global-afacad-variable.woff2") format("woff2");
+  font-weight: 500 700;
+  font-style: normal;
+  font-display: swap;
+}

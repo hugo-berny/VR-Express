@@ -1,0 +1,79 @@
+/* c-header — spec specs/home.md, nodo Figma 1:4095. Sin JS. */
+.c-header {
+  display: flex;
+  flex-wrap: wrap; /* PROVISIONAL: A-01 (sin diseño 375/768); evita desborde */
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-12);
+  box-sizing: border-box;
+  width: 100%;
+  min-height: var(--size-header-h);
+  padding: var(--space-12) var(--space-40);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-header); /* PROVISIONAL: A-13 (instancia 1:4095) */
+  font-family: var(--font-base);
+}
+
+.c-header__logo {
+  display: inline-flex;
+  flex: none;
+}
+
+.c-header__logo img {
+  display: block;
+  width: var(--size-logo-w);
+  height: var(--size-logo-h);
+}
+
+.c-header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-44);
+}
+
+.c-header__logo,
+.c-header__link,
+.c-header__contact {
+  position: relative;
+  color: var(--color-primary);
+  font-family: var(--font-base);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-semibold);
+  text-decoration: none;
+}
+
+/* Area interactiva >= 44px sin cambiar tamaño visual (A-07 A) */
+.c-header__logo::after,
+.c-header__link::after,
+.c-header__contact::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, var(--size-tap));
+  height: var(--size-tap);
+  transform: translate(-50%, -50%);
+}
+
+.c-header__link--current {
+  text-decoration: underline; /* "Rastrea tu envío" 1:4161 */
+}
+
+/* El ::after se mide sobre el padding box: suma el borde para cubrir los 108px completos */
+.c-header__contact::after {
+  width: max(calc(100% + 2 * var(--border-1-8)), var(--size-tap));
+}
+
+.c-header__contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: var(--size-contact-btn-w);
+  height: var(--size-contact-btn-h);
+  border: var(--border-1-8) solid var(--color-primary);
+  border-radius: var(--radius-30);
+}
+
+/* Estados hover/focus/active: BLOQUEADO A-09; se conserva outline nativo. */

@@ -1,0 +1,19 @@
+/* Radios, sombras y bordes. Valores exactos de Figma. Naming: --radius-*, --shadow-*, --border-*, --stroke-* */
+:root {
+  --radius-3: 3px;
+  --radius-8: 8px;
+  --radius-15: 15px;
+  --radius-17: 17px;
+  --radius-20: 20px;
+  --radius-21: 21px;
+  --radius-30: 30px;
+  --radius-circle: 50%;
+
+  /* PROVISIONAL: A-13 (sombra unica del header BLOQUEADA; instancia 1:4095) */
+  --shadow-header: 0 -3px 16.3px 0 rgba(0,0,0,0.25);
+  --shadow-review: 0 2px 12px 0 rgba(0,0,0,0.25);
+
+  --border-1: 1px;
+  --border-1-8: 1.8px;
+  --stroke-2-5: 2.5px;
+}

@@ -1,0 +1,47 @@
+/* c-carousel (Figma 1:4086). Solo scroll-snap; sin controles (BLOQUEADO A-03: diseño prev/next). */
+.c-carousel {
+  width: 100%;
+}
+
+.c-carousel__track {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-10);
+  padding: var(--space-60) var(--space-10) var(--space-40);
+  border-radius: var(--radius-3);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--space-10);
+  -webkit-overflow-scrolling: touch;
+}
+
+.c-carousel__track:focus-visible {
+  outline: var(--stroke-2-5) solid var(--color-primary);
+  outline-offset: var(--space-neg-1);
+}
+
+.c-carousel__item {
+  flex: 0 0 auto;
+  height: var(--size-carousel-h);
+  margin: 0;
+  scroll-snap-align: start;
+}
+
+.c-carousel__item picture {
+  display: contents;
+}
+
+.c-carousel__img {
+  display: block;
+  height: 100%;
+  width: auto;
+  aspect-ratio: var(--ratio-carousel-250);
+  object-fit: cover;
+  border-radius: var(--radius-3);
+}
+
+.c-carousel__img--377 { aspect-ratio: var(--ratio-carousel-377); }
+.c-carousel__img--250 { aspect-ratio: var(--ratio-carousel-250); }
+.c-carousel__img--200 { aspect-ratio: var(--ratio-carousel-200); }
+.c-carousel__img--194 { aspect-ratio: var(--ratio-carousel-194); }
+.c-carousel__img--189 { aspect-ratio: var(--ratio-carousel-189); }

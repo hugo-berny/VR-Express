@@ -1,0 +1,48 @@
+/* c-partners (Figma 1:4072). Mobile-first; 375/768 BLOQUEADO en spec: wrap provisional. */
+.c-partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-40);
+  inline-size: 100%;
+  padding-block: var(--space-70);
+  padding-inline: var(--space-20);
+}
+
+.c-partners__title {
+  margin: 0;
+  font-family: var(--font-base);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-32);
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.c-partners__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-30);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c-partners__logo {
+  inline-size: var(--size-partner-logo);
+  block-size: var(--size-partner-logo);
+  border-radius: var(--radius-circle);
+  background-color: var(--color-white);
+  object-fit: contain;
+}
+
+@media (min-width: 64em) {
+  .c-partners {
+    min-block-size: var(--size-partners-h);
+    padding-inline: 0;
+  }
+
+  .c-partners__row {
+    flex-wrap: nowrap;
+  }
+}

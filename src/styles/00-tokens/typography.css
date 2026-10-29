@@ -1,0 +1,16 @@
+/* Unica fuente de tipografia. Naming: --font-base, --fw-*, --fs-*, --lh-*. Valores exactos de Figma.
+   @font-face de Afacad en 01-base/fonts.css; fallback Arial. */
+:root {
+  --font-base: "Afacad", Arial, sans-serif;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fs-76: 76px;
+  --fs-36: 36px;
+  --fs-32: 32px;
+  --fs-24: 24px;
+  --fs-16: 16px;
+  --fs-15: 15px;
+  --fs-14: 14px;
+  --lh-hero: 0.91;
+}
