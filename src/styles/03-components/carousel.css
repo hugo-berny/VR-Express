@@ -1,4 +1,4 @@
-/* c-carousel (Figma 1:4086). Solo scroll-snap; sin controles (BLOQUEADO A-03: diseño prev/next). */
+/* c-carousel (Figma 1:4086). Sin controles (BLOQUEADO A-03). Base: scroll-snap; con JS (--marquee) loop infinito de derecha a izquierda. */
 .c-carousel {
   width: 100%;
 }
@@ -7,6 +7,8 @@
   position: relative; /* offsetLeft de los items relativo al track (carousel.js) */
   display: flex;
   flex-direction: row;
+  margin: 0;
+  list-style: none;
   gap: var(--space-10);
   padding: var(--space-60) var(--space-10) var(--space-40);
   border-radius: var(--radius-3);
@@ -23,6 +25,7 @@
 
 .c-carousel__item {
   flex: 0 0 auto;
+  list-style: none;
   height: var(--size-carousel-h);
   margin: 0;
   scroll-snap-align: start;
@@ -46,3 +49,26 @@
 .c-carousel__img--200 { aspect-ratio: var(--ratio-carousel-200); }
 .c-carousel__img--194 { aspect-ratio: var(--ratio-carousel-194); }
 .c-carousel__img--189 { aspect-ratio: var(--ratio-carousel-189); }
+
+/* Loop infinito: carousel.js duplica los items; el track se desplaza 0 -> -50% (hacia la izquierda). */
+.c-carousel--marquee {
+  overflow: hidden;
+}
+
+.c-carousel--marquee .c-carousel__track {
+  width: max-content;
+  padding-inline: 0 var(--space-10); /* el padding final iguala el gap: 50% = un ciclo exacto */
+  overflow: visible;
+  scroll-snap-type: none;
+  animation: c-carousel-loop var(--duration-carousel-loop) linear infinite;
+}
+
+.c-carousel--marquee:hover .c-carousel__track,
+.c-carousel--marquee:focus-within .c-carousel__track {
+  animation-play-state: paused;
+}
+
+@keyframes c-carousel-loop {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}

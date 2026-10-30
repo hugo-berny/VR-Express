@@ -1,0 +1,161 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - link "VR Express, inicio" [ref=e5] [cursor=pointer]:
+      - /url: index.html
+      - img "VR Express" [ref=e7]
+    - navigation "Principal" [ref=e8]:
+      - link "Servicios" [ref=e9] [cursor=pointer]:
+        - /url: pages/servicios/index.html
+      - link "Garantía" [ref=e10] [cursor=pointer]:
+        - /url: pages/garantia/index.html
+      - link "Rastrea tu envío" [ref=e11] [cursor=pointer]:
+        - /url: pages/rastreo/index.html
+      - link "Contacto" [ref=e12] [cursor=pointer]:
+        - /url: pages/contacto/index.html
+  - main [ref=e13]:
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - heading "Importación express de EEUU a México" [level=1] [ref=e17]
+        - paragraph [ref=e18]: Somos tus aliados para importar en México de una manera segura y confiable.
+      - img "[PROVISIONAL] Contenedor de envío" [ref=e20]
+    - region [ref=e22]:
+      - heading "¿Qué hacemos?" [level=2] [ref=e23]
+      - paragraph [ref=e24]:
+        - text: Somos
+        - strong [ref=e25]: VR Express
+        - text: ", especialistas en importar de Estados Unidos a México. Nos encargamos de todo el proceso: recibimos y almacenamos tu mercancía, gestionamos el despacho aduanal y la entregamos en destino, con seguimiento en tiempo real. Conocemos los permisos, normas y clasificación arancelaria de cada sector, para que tu importación llegue completa y en regla."
+    - region [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Nuestros servicios" [level=2] [ref=e28]
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - heading "Importaciones de EEUU a México" [level=3] [ref=e31]
+            - paragraph [ref=e32]: "Movemos mercancías de forma segura y eficiente entre ambos países. Nos encargamos de todo: almacenaje, inventarios, despacho aduanal y entrega final, con seguimiento en tiempo real y soporte en ambos lados de la frontera."
+            - link "Ver Importaciones de EEUU a México" [ref=e33] [cursor=pointer]:
+              - /url: pages/servicios/index.html
+          - listitem [ref=e36]:
+            - heading "Soluciones Logísticas Integrales" [level=3] [ref=e37]
+            - paragraph [ref=e38]: Cada negocio es diferente, y su logística también. Diseñamos rutas, estrategias y procesos adaptados a cada necesidad, optimizando tiempos y costos en cada envío.
+            - link "Ver Soluciones Logísticas Integrales" [ref=e39] [cursor=pointer]:
+              - /url: pages/servicios/index.html
+          - listitem [ref=e42]:
+            - heading "Gestión Aduanal y Documental" [level=3] [ref=e43]
+            - paragraph [ref=e44]: Nos ocupamos de toda la documentación requerida para importar o exportar sin contratiempos. Pedimentos, Certificados, Normas, Permisos y Clasificación Arancelaria. Todo bajo control y conforme a la normativa vigente.
+            - link "Ver Gestión Aduanal y Documental" [ref=e45] [cursor=pointer]:
+              - /url: pages/servicios/index.html
+          - listitem [ref=e48]:
+            - heading "Soluciones Especiales por Sector" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Desarrollamos soluciones específicas para industrias como textil, tecnológica, maquinaria, mobiliario, suplementos, entre otras. Conocemos las particularidades de cada padrón sectorial para garantizar envíos seguros y documentados.
+            - link "Ver Soluciones Especiales por Sector" [ref=e51] [cursor=pointer]:
+              - /url: pages/servicios/index.html
+          - listitem [ref=e54]:
+            - heading "Gestión Global de Proveedores" [level=3] [ref=e55]
+            - paragraph [ref=e56]: Facilitamos la relación con proveedores en el extranjero. Contamos con staff bilingüe para coordinar órdenes de compra, pagos internacionales y condiciones comerciales (Incoterms), así como supervisar cada etapa logística hasta entrega.
+            - link "Ver Gestión Global de Proveedores" [ref=e57] [cursor=pointer]:
+              - /url: pages/servicios/index.html
+    - region [ref=e61]:
+      - heading "Lo que opinan nuestros clientes" [level=2] [ref=e62]
+      - list [ref=e63]:
+        - listitem [ref=e64]:
+          - img "5 de 5 estrellas" [ref=e65]:
+            - listitem [ref=e66]
+            - listitem [ref=e69]
+            - listitem [ref=e72]
+            - listitem [ref=e75]
+            - listitem [ref=e78]
+          - paragraph [ref=e81]: VR EXPRESS se ocupa de todo el proceso de importación y logística de nuestros equipos. Tiene una muy buena comunicación con nuestros proveedores, la coordinación es excelente y siempre nos mantienen informados. No tenemos que preocuparnos por nada.
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: MEX BURGER
+            - paragraph [ref=e86]: Jose E. Dogre - CFO
+        - listitem [ref=e87]:
+          - img "5 de 5 estrellas" [ref=e88]:
+            - listitem [ref=e89]
+            - listitem [ref=e92]
+            - listitem [ref=e95]
+            - listitem [ref=e98]
+            - listitem [ref=e101]
+          - paragraph [ref=e104]: Encontramos a un gran aliado para todas nuestras compras internacionales en VR EXPRESS. Su servicio puerta a puerta nos brinda seguridad y tranquilidad.
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: LIGA MEX BEISBOL
+            - paragraph [ref=e109]: Gonzalo Medina - Compras
+        - listitem [ref=e110]:
+          - img "5 de 5 estrellas" [ref=e111]:
+            - listitem [ref=e112]
+            - listitem [ref=e115]
+            - listitem [ref=e118]
+            - listitem [ref=e121]
+            - listitem [ref=e124]
+          - paragraph [ref=e127]: Nuestra experiencia con VR EXPRESS ha sido muy buena. La facilitación en las importaciones lo hacen un socio logístico estrategico para nuestra tienda de productos hipicos. El servicio integral que ofrecen hace toda la diferencia
+          - generic [ref=e130]:
+            - paragraph [ref=e131]: MUNDO HIPICO
+            - paragraph [ref=e132]: Carlos Briceño - Director General
+        - listitem [ref=e133]:
+          - img "5 de 5 estrellas" [ref=e134]:
+            - listitem [ref=e135]
+            - listitem [ref=e138]
+            - listitem [ref=e141]
+            - listitem [ref=e144]
+            - listitem [ref=e147]
+          - paragraph [ref=e150]: VR EXPRESS nos ha ayudado a cumplir nuestros compromisos con los equipos importados, logrando posicionarnos como líderes en el sureste de México.
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: INTEGRATIUM
+            - paragraph [ref=e155]: Juan C. Jacobo
+    - region [ref=e156]:
+      - heading "Conoce a nuestros socios comerciales" [level=2] [ref=e157]
+      - list [ref=e158]:
+        - listitem [ref=e159]:
+          - img "DHL" [ref=e161]
+        - listitem [ref=e162]:
+          - img "Estafeta" [ref=e164]
+        - listitem [ref=e165]:
+          - img "Paquete Express" [ref=e167]
+        - listitem [ref=e168]:
+          - img "UPS" [ref=e170]
+        - listitem [ref=e171]:
+          - img "FedEx" [ref=e173]
+        - listitem [ref=e174]:
+          - img "USPS" [ref=e176]
+    - region [ref=e178]:
+      - heading "Optimiza tu cadena de suministro con VR Express" [level=2] [ref=e179]
+      - link "Cotiza tu envío" [ref=e180] [cursor=pointer]:
+        - /url: pages/contacto/index.html#cotizador
+    - region "Galería de imágenes" [ref=e181]:
+      - list [ref=e182]:
+        - listitem [ref=e183]:
+          - img "[PROVISIONAL] Imagen de galería 1" [ref=e185]
+        - listitem [ref=e186]:
+          - img "[PROVISIONAL] Imagen de galería 2" [ref=e188]
+        - listitem [ref=e189]:
+          - img "[PROVISIONAL] Imagen de galería 3" [ref=e191]
+        - listitem [ref=e192]:
+          - img "[PROVISIONAL] Imagen de galería 4" [ref=e194]
+        - listitem [ref=e195]:
+          - img "[PROVISIONAL] Imagen de galería 5" [ref=e197]
+        - listitem [ref=e198]:
+          - img "[PROVISIONAL] Imagen de galería 6" [ref=e200]
+        - listitem [ref=e201]:
+          - img "[PROVISIONAL] Imagen de galería 7" [ref=e203]
+        - listitem [aria-hidden] [ref=e204]
+        - listitem [aria-hidden] [ref=e206]
+        - listitem [aria-hidden] [ref=e208]
+        - listitem [aria-hidden] [ref=e210]
+        - listitem [aria-hidden] [ref=e212]
+        - listitem [aria-hidden] [ref=e214]
+        - listitem [aria-hidden] [ref=e216]
+  - contentinfo [ref=e218]:
+    - paragraph [ref=e219]: Copyright © 2026 VR Express is a registered trademark of VRI Freight S.A. de C.V. All rights reserved.
+    - generic [ref=e220]:
+      - paragraph [ref=e221]: Síguenos en redes sociales
+      - list [ref=e222]:
+        - listitem [ref=e223]:
+          - link "Facebook" [ref=e224] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e226]:
+          - link "Instagram" [ref=e227] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e229]:
+          - link "TikTok" [ref=e230] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e232]:
+          - link "X" [ref=e233] [cursor=pointer]:
+            - /url: "#"

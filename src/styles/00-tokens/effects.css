@@ -17,4 +17,11 @@
   --border-1: 1px;
   --border-1-8: 1.8px;
   --stroke-2-5: 2.5px;
+
+  --border-4: 4px;
+  /* Fotos de servicios en escala de grises (Figma servicios) */
+  --filter-mono: grayscale(1);
+
+  /* Carrusel: vuelta completa del loop infinito */
+  --duration-carousel-loop: 40s;
 }

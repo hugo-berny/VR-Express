@@ -1,0 +1,75 @@
+/* c-offer: servicios ofrecidos (Figma 1:4241). Foto + 3 tarjetas. */
+.c-offer {
+  padding-block: var(--space-60) var(--space-80);
+  font-family: var(--font-base);
+}
+
+.c-offer__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-60);
+}
+
+.c-offer__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-20);
+}
+
+.c-offer__media {
+  display: block;
+  min-width: 0;
+}
+
+.c-offer__img {
+  inline-size: 100%;
+  block-size: 100%;
+  aspect-ratio: var(--ratio-offer-wide);
+  object-fit: cover;
+  border-radius: var(--radius-17);
+  filter: var(--filter-mono);
+}
+
+.c-offer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: var(--space-20);
+  grid-auto-rows: 1fr;
+}
+
+.c-offer__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-10);
+  padding: var(--space-20);
+  background-color: var(--color-primary-8);
+  border-radius: var(--radius-15);
+}
+
+.c-offer__name {
+  margin: 0;
+  font-size: var(--fs-16);
+  font-weight: var(--fw-semibold);
+  color: var(--color-primary);
+}
+
+.c-offer__desc {
+  margin: 0;
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-body);
+  color: var(--color-text-soft);
+}
+
+.c-offer__card .c-btn { margin-block-start: auto; }
+
+@media (min-width: 64em) {
+  .c-offer__grid {
+    grid-template-columns: var(--size-offer-media-w) minmax(0, 1fr);
+  }
+
+  .c-offer__img { aspect-ratio: auto; }
+}

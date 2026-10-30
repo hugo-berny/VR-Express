@@ -1,0 +1,47 @@
+/* c-pay: "Paga de manera segura" (Figma 1:4215). La imagen de tarjetas esta PENDIENTE: placeholder. */
+.c-pay {
+  padding-block: var(--space-80);
+  font-family: var(--font-base);
+}
+
+.c-pay__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-40);
+  align-items: center;
+}
+
+/* PENDIENTE: logos Visa / Mastercard / Amex. Sustituir este bloque por <picture> */
+.c-pay__media {
+  inline-size: 100%;
+  max-inline-size: var(--size-pay-media-w);
+  aspect-ratio: var(--ratio-pay);
+  justify-self: center;
+  background-color: var(--color-placeholder);
+  border-radius: var(--radius-8);
+}
+
+.c-pay__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-35);
+}
+
+.c-pay__body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-35);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-medium);
+  color: var(--color-primary);
+}
+
+.c-pay__body p { margin: 0; }
+
+@media (min-width: 48em) {
+  .c-pay__inner {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-80);
+  }
+}

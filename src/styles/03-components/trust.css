@@ -1,0 +1,59 @@
+/* c-trust: "La confianza que tu operacion merece" (Figma 1:4241). */
+.c-trust {
+  padding-block: var(--space-80);
+  background-color: var(--color-primary-15);
+  font-family: var(--font-base);
+}
+
+.c-trust__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-40);
+  margin-inline: auto;
+  max-inline-size: calc(var(--size-trust-w) + 2 * var(--space-40));
+}
+
+.c-trust__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-20);
+}
+
+.c-trust__card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+  padding: var(--space-20);
+  background-color: var(--color-white);
+  border-radius: var(--radius-15);
+}
+
+.c-trust__img {
+  inline-size: 100%;
+  aspect-ratio: var(--ratio-trust);
+  object-fit: cover;
+  border-radius: var(--radius-8);
+  filter: var(--filter-mono);
+}
+
+.c-trust__name {
+  margin: var(--space-10) 0 0;
+  font-size: var(--fs-16);
+  font-weight: var(--fw-semibold);
+  color: var(--color-primary);
+}
+
+.c-trust__desc {
+  margin: 0;
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-body);
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 48em) {
+  .c-trust__list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

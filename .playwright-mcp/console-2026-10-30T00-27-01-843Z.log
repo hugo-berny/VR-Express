@@ -1,0 +1,17 @@
+[   10386ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-socio-dhl-400.avif:0
+[   10388ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-socio-estafeta-400.avif:0
+[   10394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-socio-ups-400.avif:0
+[   10394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-socio-paqueteexpress-400.avif:0
+[   10394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-socio-fedex-400.avif:0
+[   10394ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-socio-sinmarca-400.avif:0
+[   11286ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-1-736.avif:0
+[   11287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-2-400.avif:0
+[   11292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-3-736.avif:0
+[   11292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-4-400.avif:0
+[   11292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-5-400.avif:0
+[   11292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-6-400.avif:0
+[   11292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-carrusel-7-736.avif:0
+[   11955ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-redes-facebook-400.avif:0
+[   11956ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-redes-instagram-400.avif:0
+[   11957ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-redes-tiktok-304.avif:0
+[   11957ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/assets/images/optimized/home-redes-x-400.avif:0

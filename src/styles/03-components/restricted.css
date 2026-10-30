@@ -1,0 +1,45 @@
+/* c-restricted: "Articulos que no podemos importar" (Figma 1:4215). Icono de mano PENDIENTE: placeholder. */
+.c-restricted {
+  padding-block: var(--space-80);
+  background-color: var(--color-primary-15);
+  font-family: var(--font-base);
+}
+
+.c-restricted__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-55);
+}
+
+.c-restricted__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-40);
+  align-items: center;
+  justify-items: center;
+}
+
+.c-restricted__list {
+  margin: 0;
+  padding-inline-start: var(--space-20);
+  justify-self: start;
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-body);
+  color: var(--color-text-soft);
+}
+
+/* PENDIENTE: icono "mano de alto" rojo. Sustituir por <img>/<svg> */
+.c-restricted__media {
+  inline-size: var(--size-circle-media);
+  aspect-ratio: 1;
+  background-color: var(--color-placeholder);
+  border-radius: var(--radius-circle);
+}
+
+@media (min-width: 48em) {
+  .c-restricted__body {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: var(--space-60);
+  }
+}

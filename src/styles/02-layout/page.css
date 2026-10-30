@@ -23,3 +23,24 @@
   width: 100%;
   min-width: 0;
 }
+
+/* Paginas interiores: gutter lateral (la home aun no lo define, A-01) */
+.l-container--gutter {
+  padding-inline: var(--space-20);
+  max-inline-size: calc(var(--size-container) + 2 * var(--space-40));
+}
+
+.l-narrow {
+  width: 100%;
+  min-width: 0;
+  margin-inline: auto;
+  padding-inline: var(--space-20);
+  max-inline-size: calc(var(--size-narrow) + 2 * var(--space-40));
+}
+
+@media (min-width: 48em) {
+  .l-container--gutter,
+  .l-narrow {
+    padding-inline: var(--space-40);
+  }
+}

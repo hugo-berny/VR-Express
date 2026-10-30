@@ -1,0 +1,56 @@
+/* c-warranty: banda azul inicial de /garantia (Figma 1:4215). */
+.c-warranty {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  padding-block: var(--space-80);
+}
+
+.c-warranty__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-40);
+  align-items: center;
+  justify-items: center;
+}
+
+.c-warranty__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-19);
+}
+
+.c-warranty__title {
+  margin: 0;
+  font-size: var(--fs-36);
+  font-weight: var(--fw-bold);
+  text-transform: uppercase;
+}
+
+.c-warranty__body {
+  margin: 0;
+  font-size: var(--fs-16);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-body);
+}
+
+.c-warranty__body strong { font-weight: var(--fw-bold); }
+
+.c-warranty__link {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.c-warranty__seal {
+  inline-size: var(--size-seal);
+  block-size: var(--size-seal);
+  fill: currentColor;
+}
+
+@media (min-width: 48em) {
+  .c-warranty__inner {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: var(--space-60);
+    justify-items: stretch;
+  }
+}

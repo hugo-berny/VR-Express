@@ -1130,6 +1130,275 @@
       "type": "icon",
       "path": "icons/review-star.svg",
       "note": "PROVISIONAL: dibujado a mano, no exportado de Figma (API 429); sustituir por el vector de Figma"
+    },
+    "images/optimized/garantia-logo": {
+      "type": "svg",
+      "raw": "images/raw/garantia-logo.svg",
+      "variants": [
+        {
+          "format": "svg",
+          "path": "images/optimized/garantia-logo.svg",
+          "bytes": 715
+        }
+      ]
+    },
+    "images/optimized/servicios-experiencia": {
+      "type": "image",
+      "raw": "images/raw/servicios-experiencia.jpg",
+      "width": 3416,
+      "height": 2287,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/servicios-experiencia-400.avif 400w, images/optimized/servicios-experiencia-800.avif 800w, images/optimized/servicios-experiencia-1200.avif 1200w, images/optimized/servicios-experiencia-1920.avif 1920w",
+        "webp": "images/optimized/servicios-experiencia-400.webp 400w, images/optimized/servicios-experiencia-800.webp 800w, images/optimized/servicios-experiencia-1200.webp 1200w, images/optimized/servicios-experiencia-1920.webp 1920w",
+        "jpg": "images/optimized/servicios-experiencia-400.jpg 400w, images/optimized/servicios-experiencia-800.jpg 800w, images/optimized/servicios-experiencia-1200.jpg 1200w, images/optimized/servicios-experiencia-1920.jpg 1920w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/servicios-experiencia-400.avif",
+          "bytes": 17591
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/servicios-experiencia-400.webp",
+          "bytes": 17126
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/servicios-experiencia-400.jpg",
+          "bytes": 20074
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/servicios-experiencia-800.avif",
+          "bytes": 56665
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/servicios-experiencia-800.webp",
+          "bytes": 58006
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/servicios-experiencia-800.jpg",
+          "bytes": 69129
+        },
+        {
+          "format": "avif",
+          "width": 1200,
+          "path": "images/optimized/servicios-experiencia-1200.avif",
+          "bytes": 105363
+        },
+        {
+          "format": "webp",
+          "width": 1200,
+          "path": "images/optimized/servicios-experiencia-1200.webp",
+          "bytes": 116346
+        },
+        {
+          "format": "jpg",
+          "width": 1200,
+          "path": "images/optimized/servicios-experiencia-1200.jpg",
+          "bytes": 142025
+        },
+        {
+          "format": "avif",
+          "width": 1920,
+          "path": "images/optimized/servicios-experiencia-1920.avif",
+          "bytes": 203340
+        },
+        {
+          "format": "webp",
+          "width": 1920,
+          "path": "images/optimized/servicios-experiencia-1920.webp",
+          "bytes": 237428
+        },
+        {
+          "format": "jpg",
+          "width": 1920,
+          "path": "images/optimized/servicios-experiencia-1920.jpg",
+          "bytes": 316942
+        }
+      ]
+    },
+    "images/optimized/servicios-header": {
+      "type": "image",
+      "raw": "images/raw/servicios-header.jpg",
+      "width": 3072,
+      "height": 4096,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/servicios-header-400.avif 400w, images/optimized/servicios-header-800.avif 800w, images/optimized/servicios-header-1200.avif 1200w, images/optimized/servicios-header-1920.avif 1920w",
+        "webp": "images/optimized/servicios-header-400.webp 400w, images/optimized/servicios-header-800.webp 800w, images/optimized/servicios-header-1200.webp 1200w, images/optimized/servicios-header-1920.webp 1920w",
+        "jpg": "images/optimized/servicios-header-400.jpg 400w, images/optimized/servicios-header-800.jpg 800w, images/optimized/servicios-header-1200.jpg 1200w, images/optimized/servicios-header-1920.jpg 1920w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/servicios-header-400.avif",
+          "bytes": 10714
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/servicios-header-400.webp",
+          "bytes": 16058
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/servicios-header-400.jpg",
+          "bytes": 23663
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/servicios-header-800.avif",
+          "bytes": 25099
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/servicios-header-800.webp",
+          "bytes": 42110
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/servicios-header-800.jpg",
+          "bytes": 68846
+        },
+        {
+          "format": "avif",
+          "width": 1200,
+          "path": "images/optimized/servicios-header-1200.avif",
+          "bytes": 41804
+        },
+        {
+          "format": "webp",
+          "width": 1200,
+          "path": "images/optimized/servicios-header-1200.webp",
+          "bytes": 73800
+        },
+        {
+          "format": "jpg",
+          "width": 1200,
+          "path": "images/optimized/servicios-header-1200.jpg",
+          "bytes": 127515
+        },
+        {
+          "format": "avif",
+          "width": 1920,
+          "path": "images/optimized/servicios-header-1920.avif",
+          "bytes": 77652
+        },
+        {
+          "format": "webp",
+          "width": 1920,
+          "path": "images/optimized/servicios-header-1920.webp",
+          "bytes": 142174
+        },
+        {
+          "format": "jpg",
+          "width": 1920,
+          "path": "images/optimized/servicios-header-1920.jpg",
+          "bytes": 269353
+        }
+      ]
+    },
+    "images/optimized/servicios-innovacion": {
+      "type": "image",
+      "raw": "images/raw/servicios-innovacion.jpg",
+      "width": 6000,
+      "height": 4000,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/servicios-innovacion-400.avif 400w, images/optimized/servicios-innovacion-800.avif 800w, images/optimized/servicios-innovacion-1200.avif 1200w, images/optimized/servicios-innovacion-1920.avif 1920w",
+        "webp": "images/optimized/servicios-innovacion-400.webp 400w, images/optimized/servicios-innovacion-800.webp 800w, images/optimized/servicios-innovacion-1200.webp 1200w, images/optimized/servicios-innovacion-1920.webp 1920w",
+        "jpg": "images/optimized/servicios-innovacion-400.jpg 400w, images/optimized/servicios-innovacion-800.jpg 800w, images/optimized/servicios-innovacion-1200.jpg 1200w, images/optimized/servicios-innovacion-1920.jpg 1920w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/servicios-innovacion-400.avif",
+          "bytes": 30972
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/servicios-innovacion-400.webp",
+          "bytes": 28368
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/servicios-innovacion-400.jpg",
+          "bytes": 31535
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/servicios-innovacion-800.avif",
+          "bytes": 83741
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/servicios-innovacion-800.webp",
+          "bytes": 84668
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/servicios-innovacion-800.jpg",
+          "bytes": 101373
+        },
+        {
+          "format": "avif",
+          "width": 1200,
+          "path": "images/optimized/servicios-innovacion-1200.avif",
+          "bytes": 136268
+        },
+        {
+          "format": "webp",
+          "width": 1200,
+          "path": "images/optimized/servicios-innovacion-1200.webp",
+          "bytes": 148260
+        },
+        {
+          "format": "jpg",
+          "width": 1200,
+          "path": "images/optimized/servicios-innovacion-1200.jpg",
+          "bytes": 193481
+        },
+        {
+          "format": "avif",
+          "width": 1920,
+          "path": "images/optimized/servicios-innovacion-1920.avif",
+          "bytes": 243168
+        },
+        {
+          "format": "webp",
+          "width": 1920,
+          "path": "images/optimized/servicios-innovacion-1920.webp",
+          "bytes": 286294
+        },
+        {
+          "format": "jpg",
+          "width": 1920,
+          "path": "images/optimized/servicios-innovacion-1920.jpg",
+          "bytes": 408340
+        }
+      ]
     }
   }
 }

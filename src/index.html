@@ -7,19 +7,19 @@
   <link rel="stylesheet" href="styles/main.css">
   <script type="module" src="scripts/main.js"></script>
 </head>
-<body>
+<body data-scroll-top>
   <svg class="u-visually-hidden" width="0" height="0" aria-hidden="true" focusable="false"><symbol id="review-star" viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></symbol></svg>
   <div class="l-page">
-    <!-- hrefs PROVISIONALES: falta URL final -->
+    <!-- /pages/rastreo/ PROVISIONAL: pagina aun sin construir -->
     <header class="c-header">
-      <a class="c-header__logo" href="/" aria-label="VR Express, inicio">
+      <a class="c-header__logo" href="index.html" aria-label="VR Express, inicio">
         <picture><source type="image/avif" srcset="assets/images/optimized/header-logo-vrexpress-400.avif 400w, assets/images/optimized/header-logo-vrexpress-800.avif 800w, assets/images/optimized/header-logo-vrexpress-1200.avif 1200w, assets/images/optimized/header-logo-vrexpress-1920.avif 1920w" sizes="212px"><source type="image/webp" srcset="assets/images/optimized/header-logo-vrexpress-400.webp 400w, assets/images/optimized/header-logo-vrexpress-800.webp 800w, assets/images/optimized/header-logo-vrexpress-1200.webp 1200w, assets/images/optimized/header-logo-vrexpress-1920.webp 1920w" sizes="212px"><img src="assets/images/optimized/header-logo-vrexpress-1920.png" srcset="assets/images/optimized/header-logo-vrexpress-400.png 400w, assets/images/optimized/header-logo-vrexpress-800.png 800w, assets/images/optimized/header-logo-vrexpress-1200.png 1200w, assets/images/optimized/header-logo-vrexpress-1920.png 1920w" sizes="212px" width="212" height="43" alt="VR Express"></picture>
       </a>
       <nav class="c-header__nav" aria-label="Principal">
-        <a class="c-header__link" href="#servicios">Servicios</a>
-        <a class="c-header__link" href="#garantia">Garantía</a>
-        <a class="c-header__link c-header__link--current" href="#rastreo">Rastrea tu envío</a>
-        <a class="c-header__contact" href="#contacto">Contacto</a>
+        <a class="c-header__link" href="pages/servicios/index.html">Servicios</a>
+        <a class="c-header__link" href="pages/garantia/index.html">Garantía</a>
+        <a class="c-header__link c-header__link--current" href="pages/rastreo/index.html">Rastrea tu envío</a>
+        <a class="c-header__contact" href="pages/contacto/index.html">Contacto</a>
       </nav>
     </header>
 
@@ -42,47 +42,47 @@
         </section>
       </div>
 
-      <section class="c-services" id="servicios" aria-labelledby="services-title">
+      <section class="c-services" aria-labelledby="services-title">
         <div class="c-services__content">
           <h2 class="c-services__title" id="services-title">Nuestros servicios</h2>
           <ul class="c-services__list">
         <li class="c-services__row c-services__row--first">
           <h3 class="c-services__name">Importaciones de EEUU a México</h3>
           <p class="c-services__desc">Movemos mercancías de forma segura y eficiente entre ambos países. Nos encargamos de todo: almacenaje, inventarios, despacho aduanal y entrega final, con seguimiento en tiempo real y soporte en ambos lados de la frontera.</p>
-          <!-- PROVISIONAL: href="#" (falta destino) y ruta del icono (1:4165) -->
-          <a class="c-services__link" href="#" aria-label="Ver Importaciones de EEUU a México">
+          <!-- PROVISIONAL: ruta del icono (1:4165) -->
+          <a class="c-services__link" href="pages/servicios/index.html" aria-label="Ver Importaciones de EEUU a México">
             <svg class="c-services__icon" viewBox="0 0 28 16" aria-hidden="true" focusable="false"><path d="M1 8h25M19 1l7 7-7 7"/></svg>
           </a>
         </li>
         <li class="c-services__row">
           <h3 class="c-services__name">Soluciones Logísticas Integrales</h3>
           <p class="c-services__desc">Cada negocio es diferente, y su logística también. Diseñamos rutas, estrategias y procesos adaptados a cada necesidad, optimizando tiempos y costos en cada envío.</p>
-          <!-- PROVISIONAL: href="#" (falta destino) y ruta del icono (1:4165) -->
-          <a class="c-services__link" href="#" aria-label="Ver Soluciones Logísticas Integrales">
+          <!-- PROVISIONAL: ruta del icono (1:4165) -->
+          <a class="c-services__link" href="pages/servicios/index.html" aria-label="Ver Soluciones Logísticas Integrales">
             <svg class="c-services__icon" viewBox="0 0 28 16" aria-hidden="true" focusable="false"><path d="M1 8h25M19 1l7 7-7 7"/></svg>
           </a>
         </li>
         <li class="c-services__row">
           <h3 class="c-services__name">Gestión Aduanal y Documental</h3>
           <p class="c-services__desc">Nos ocupamos de toda la documentación requerida para importar o exportar sin contratiempos. Pedimentos, Certificados, Normas, Permisos y Clasificación Arancelaria. Todo bajo control y conforme a la normativa vigente.</p>
-          <!-- PROVISIONAL: href="#" (falta destino) y ruta del icono (1:4165) -->
-          <a class="c-services__link" href="#" aria-label="Ver Gestión Aduanal y Documental">
+          <!-- PROVISIONAL: ruta del icono (1:4165) -->
+          <a class="c-services__link" href="pages/servicios/index.html" aria-label="Ver Gestión Aduanal y Documental">
             <svg class="c-services__icon" viewBox="0 0 28 16" aria-hidden="true" focusable="false"><path d="M1 8h25M19 1l7 7-7 7"/></svg>
           </a>
         </li>
         <li class="c-services__row">
           <h3 class="c-services__name">Soluciones Especiales por Sector</h3>
           <p class="c-services__desc">Desarrollamos soluciones específicas para industrias como textil, tecnológica, maquinaria, mobiliario, suplementos, entre otras. Conocemos las particularidades de cada padrón sectorial para garantizar envíos seguros y documentados.</p>
-          <!-- PROVISIONAL: href="#" (falta destino) y ruta del icono (1:4165) -->
-          <a class="c-services__link" href="#" aria-label="Ver Soluciones Especiales por Sector">
+          <!-- PROVISIONAL: ruta del icono (1:4165) -->
+          <a class="c-services__link" href="pages/servicios/index.html" aria-label="Ver Soluciones Especiales por Sector">
             <svg class="c-services__icon" viewBox="0 0 28 16" aria-hidden="true" focusable="false"><path d="M1 8h25M19 1l7 7-7 7"/></svg>
           </a>
         </li>
         <li class="c-services__row">
           <h3 class="c-services__name">Gestión Global de Proveedores</h3>
           <p class="c-services__desc">Facilitamos la relación con proveedores en el extranjero. Contamos con staff bilingüe para coordinar órdenes de compra, pagos internacionales y condiciones comerciales (Incoterms), así como supervisar cada etapa logística hasta entrega.</p>
-          <!-- PROVISIONAL: href="#" (falta destino) y ruta del icono (1:4165) -->
-          <a class="c-services__link" href="#" aria-label="Ver Gestión Global de Proveedores">
+          <!-- PROVISIONAL: ruta del icono (1:4165) -->
+          <a class="c-services__link" href="pages/servicios/index.html" aria-label="Ver Gestión Global de Proveedores">
             <svg class="c-services__icon" viewBox="0 0 28 16" aria-hidden="true" focusable="false"><path d="M1 8h25M19 1l7 7-7 7"/></svg>
           </a>
         </li>
@@ -162,7 +162,7 @@
         <section class="c-cta" aria-labelledby="cta-title">
           <h2 class="c-cta__title" id="cta-title">Optimiza tu cadena de suministro con VR Express</h2>
           <!-- PROVISIONAL: href="#" (falta destino) -->
-          <a class="c-cta__button" href="#">Cotiza tu envío</a>
+          <a class="c-cta__button" href="pages/contacto/index.html#cotizador">Cotiza tu envío</a>
         </section>
       </div>
 

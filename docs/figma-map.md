@@ -5,10 +5,10 @@ Archivo Figma (Figma Sites, solo vista): https://www.figma.com/site/swQmSbnkWPmV
 | Frame Figma | node-id | Pagina / componente | Spec | Estado |
 |---|---|---|---|---|
 | Home (SECTION; frame Desktop 1:4054) | 1:4138 | home | specs/home.data.md | leido |
-| /garantia (SECTION) | 1:4215 | garantia | | pendiente |
-| /servicios (SECTION) | 1:4241 | servicios | | pendiente |
+| /garantia (SECTION) | 1:4215 | garantia | specs/pages-secundarias.md | construido (desde captura, sin API) |
+| /servicios (SECTION) | 1:4241 | servicios | specs/pages-secundarias.md | construido (desde captura, sin API) |
 | /rastreo (SECTION) | 1:4261 | rastreo | | pendiente |
-| /contacto (SECTION) | 1:4349 | contacto | | pendiente |
+| /contacto (SECTION) | 1:4349 | contacto | specs/pages-secundarias.md | construido (desde captura, sin API) |
 
 Archivo Design (editable, el que usa la API): https://www.figma.com/design/PPh2wVGw7yF07KrgHUrhwa/VR-Express_Design · file key: `PPh2wVGw7yF07KrgHUrhwa`
 

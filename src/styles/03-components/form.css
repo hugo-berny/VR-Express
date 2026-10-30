@@ -1,0 +1,121 @@
+/* c-form: formulario de contacto + Cotizador Express oculto (Figma 1:4349). Logica en components/contact-form.js */
+.c-form {
+  display: grid;
+  gap: var(--space-25);
+  font-family: var(--font-base);
+}
+
+.c-form__field {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.c-form__label {
+  font-size: var(--fs-16);
+  font-weight: var(--fw-medium);
+  color: var(--color-primary-70);
+}
+
+.c-form__control {
+  inline-size: 100%;
+  min-block-size: var(--size-tap);
+  padding: var(--space-10) var(--space-19);
+  background-color: var(--color-primary-8);
+  border: var(--border-1) solid transparent;
+  border-radius: var(--radius-8);
+  color: var(--color-black);
+  font-size: var(--fs-16);
+}
+
+textarea.c-form__control {
+  min-block-size: var(--size-textarea-h);
+  resize: vertical;
+}
+
+.c-form__control:focus-visible {
+  outline: var(--stroke-2-5) solid var(--color-primary);
+  outline-offset: var(--space-2);
+}
+
+.c-form__control[aria-invalid="true"] {
+  border-color: var(--color-danger);
+}
+
+.c-form__error {
+  margin: 0;
+  font-size: var(--fs-14);
+  color: var(--color-danger);
+}
+
+.c-form__error[hidden] { display: none; }
+
+/* Interruptor "Cotizador Express": checkbox oculto visualmente + icono en el label */
+.c-form__toggle {
+  display: flex;
+  align-items: center;
+}
+
+.c-form__toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-10);
+  min-block-size: var(--size-tap);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-bold);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.c-form__tick {
+  inline-size: var(--size-check);
+  block-size: var(--size-check);
+}
+
+.c-form__tick-bg {
+  fill: var(--color-white);
+  stroke: var(--color-primary);
+  stroke-width: var(--border-1-8);
+}
+
+.c-form__tick-mark {
+  fill: none;
+  stroke: var(--color-white);
+  stroke-width: var(--stroke-2-5);
+  opacity: 0;
+}
+
+.c-form__check:checked + .c-form__toggle-label .c-form__tick-bg { fill: var(--color-primary); }
+.c-form__check:checked + .c-form__toggle-label .c-form__tick-mark { opacity: 1; }
+
+.c-form__check:focus-visible + .c-form__toggle-label {
+  outline: var(--stroke-2-5) solid var(--color-primary);
+  outline-offset: var(--space-2);
+}
+
+/* Campos del cotizador: fieldset oculto + deshabilitado hasta activar el interruptor */
+.c-form__quote {
+  display: grid;
+  gap: var(--space-25);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.c-form__quote[hidden] { display: none; }
+
+.c-form__status {
+  margin: 0;
+  font-size: var(--fs-16);
+  font-weight: var(--fw-medium);
+  color: var(--color-primary);
+}
+
+.c-form__status[data-state="error"] { color: var(--color-danger); }
+.c-form__status:empty { display: none; }
+
+.c-form__actions {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-20);
+}

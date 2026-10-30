@@ -23,5 +23,17 @@
 @import url("03-components/cta.css") layer(components);
 @import url("03-components/carousel.css") layer(components);
 @import url("03-components/footer.css") layer(components);
+@import url("03-components/title.css") layer(components);
+@import url("03-components/button.css") layer(components);
+@import url("03-components/warranty.css") layer(components);
+@import url("03-components/pay.css") layer(components);
+@import url("03-components/restricted.css") layer(components);
+@import url("03-components/faq.css") layer(components);
+@import url("03-components/policies.css") layer(components);
+@import url("03-components/offer.css") layer(components);
+@import url("03-components/trust.css") layer(components);
+@import url("03-components/contact.css") layer(components);
+@import url("03-components/form.css") layer(components);
+@import url("03-components/offices.css") layer(components);
 
 @import url("04-utilities/a11y.css") layer(utilities);

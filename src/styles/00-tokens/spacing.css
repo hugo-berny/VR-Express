@@ -66,4 +66,20 @@
   --ratio-carousel-200: 200 / 250;
   --ratio-carousel-194: 194 / 250;
   --ratio-carousel-189: 189 / 250;
+
+  /* Paginas garantia / servicios / contacto. Medidas derivadas de capturas 1280 (API Figma en 429) */
+  --size-narrow: 880px; /* PROVISIONAL: columna central de garantia */
+  --size-trust-w: 800px;
+  --size-offer-media-w: 345px;
+  --size-seal: 167px;
+  --size-circle-media: 220px;
+  --size-pay-media-w: 296px;
+  --size-form-w: 443px;
+  --size-offices-w: 476px;
+  --size-textarea-h: 100px;
+  --size-check: 20px;
+
+  --ratio-offer-wide: 16 / 9; /* PROVISIONAL: imagen de servicios en movil */
+  --ratio-trust: 350 / 136;
+  --ratio-pay: 222 / 47;
 }

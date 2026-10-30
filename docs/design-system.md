@@ -105,3 +105,6 @@ Fuente: `specs/home.md` § Tokens nuevos (pagina home, frame 1:4054).
 | Componente | Clase | Archivo CSS | Variantes | Estados | Figma node-id |
 |---|---|---|---|---|---|
 | _(vacio)_ | | | | | |
+
+## Tokens paginas garantia / servicios / contacto (PROVISIONAL, de captura; ver `specs/pages-secundarias.md`)
+`--color-primary-8`, `--color-primary-70`, `--color-danger`, `--fs-20`, `--lh-body`, `--lh-loose`, `--border-4`, `--filter-mono`, `--size-narrow`, `--size-trust-w`, `--size-offer-media-w`, `--size-seal`, `--size-circle-media`, `--size-pay-media-w`, `--size-form-w`, `--size-offices-w`, `--size-textarea-h`, `--size-check`, `--ratio-offer-wide`, `--ratio-trust`, `--ratio-pay`.

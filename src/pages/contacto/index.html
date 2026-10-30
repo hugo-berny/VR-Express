@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | VR Express</title>
+  <meta name="description" content="Habla con VR Express o solicita tu cotización express. Oficinas en Mérida, Nuevo Laredo y Laredo.">
+  <link rel="stylesheet" href="../../styles/main.css">
+  <script type="module" src="../../scripts/main.js"></script>
+</head>
+<body>
+  <div class="l-page">
+    <header class="c-header">
+      <a class="c-header__logo" href="../../index.html" aria-label="VR Express, inicio">
+        <picture><source type="image/avif" srcset="../../assets/images/optimized/header-logo-vrexpress-400.avif 400w, ../../assets/images/optimized/header-logo-vrexpress-800.avif 800w, ../../assets/images/optimized/header-logo-vrexpress-1200.avif 1200w, ../../assets/images/optimized/header-logo-vrexpress-1920.avif 1920w" sizes="212px"><source type="image/webp" srcset="../../assets/images/optimized/header-logo-vrexpress-400.webp 400w, ../../assets/images/optimized/header-logo-vrexpress-800.webp 800w, ../../assets/images/optimized/header-logo-vrexpress-1200.webp 1200w, ../../assets/images/optimized/header-logo-vrexpress-1920.webp 1920w" sizes="212px"><img src="../../assets/images/optimized/header-logo-vrexpress-1920.png" srcset="../../assets/images/optimized/header-logo-vrexpress-400.png 400w, ../../assets/images/optimized/header-logo-vrexpress-800.png 800w, ../../assets/images/optimized/header-logo-vrexpress-1200.png 1200w, ../../assets/images/optimized/header-logo-vrexpress-1920.png 1920w" sizes="212px" width="212" height="43" alt="VR Express"></picture>
+      </a>
+      <nav class="c-header__nav" aria-label="Principal">
+        <a class="c-header__link" href="../servicios/index.html">Servicios</a>
+        <a class="c-header__link" href="../garantia/index.html">Garantía</a>
+        <a class="c-header__link c-header__link--current" href="../rastreo/index.html">Rastrea tu envío</a>
+        <a class="c-header__contact" href="../contacto/index.html">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="c-contact" aria-labelledby="contact-title">
+        <div class="l-container l-container--gutter">
+          <div class="c-contact__inner">
+            <h1 class="c-title c-title--center" id="contact-title">Hablemos de tus necesidades logísticas</h1>
+            <div class="c-contact__grid">
+              <!-- Envio por correo via endpoint (ver scripts/services/contact.js). novalidate: valida contact-form.js -->
+              <form class="c-form" id="contact-form" method="post" action="#" novalidate data-component="contact-form">
+                <div class="c-form__field">
+                  <label class="c-form__label" for="f-nombre">Nombre</label>
+                  <input class="c-form__control" id="f-nombre" name="nombre" type="text" autocomplete="name" maxlength="100" required>
+                  <p class="c-form__error" id="f-nombre-error" hidden></p>
+                </div>
+                <div class="c-form__field">
+                  <label class="c-form__label" for="f-contacto">Contacto (WhatsApp/Email)</label>
+                  <input class="c-form__control" id="f-contacto" name="contacto" type="text" autocomplete="email" maxlength="120" required>
+                  <p class="c-form__error" id="f-contacto-error" hidden></p>
+                </div>
+                <div class="c-form__field">
+                  <label class="c-form__label" for="f-mensaje">Cuéntanos cómo podemos ayudarte</label>
+                  <textarea class="c-form__control" id="f-mensaje" name="mensaje" rows="4" maxlength="2000"></textarea>
+                  <p class="c-form__error" id="f-mensaje-error" hidden></p>
+                </div>
+
+                <div class="c-form__toggle">
+                  <input class="c-form__check u-visually-hidden" type="checkbox" id="f-cotizador" name="cotizador" aria-controls="f-quote">
+                  <label class="c-form__toggle-label" for="f-cotizador">
+                    <svg class="c-form__tick" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><circle class="c-form__tick-bg" cx="10" cy="10" r="9"/><path class="c-form__tick-mark" d="M5.5 10.5l3 3 6-6.5"/></svg>
+                    Cotizador Express
+                  </label>
+                </div>
+
+                <fieldset class="c-form__quote" id="f-quote" data-quote hidden disabled>
+                  <legend class="u-visually-hidden">Datos para cotizar tu envío</legend>
+                  <div class="c-form__field">
+                    <label class="c-form__label" for="f-tipo">Tipo de compra (Personal/Comercial)</label>
+                    <select class="c-form__control" id="f-tipo" name="tipoCompra" required>
+                      <option value="" selected></option>
+                      <option value="Personal">Personal</option>
+                      <option value="Comercial">Comercial</option>
+                    </select>
+                    <p class="c-form__error" id="f-tipo-error" hidden></p>
+                  </div>
+                  <div class="c-form__field">
+                    <label class="c-form__label" for="f-peso">Peso (Kg)</label>
+                    <input class="c-form__control" id="f-peso" name="pesoKg" type="number" inputmode="decimal" min="0" step="any" required>
+                    <p class="c-form__error" id="f-peso-error" hidden></p>
+                  </div>
+                  <div class="c-form__field">
+                    <label class="c-form__label" for="f-dimensiones">Dimensiones (cm)</label>
+                    <input class="c-form__control" id="f-dimensiones" name="dimensionesCm" type="text" maxlength="60" required>
+                    <p class="c-form__error" id="f-dimensiones-error" hidden></p>
+                  </div>
+                  <div class="c-form__field">
+                    <label class="c-form__label" for="f-link">Link de tu producto (https://...)</label>
+                    <input class="c-form__control" id="f-link" name="linkProducto" type="url" inputmode="url" maxlength="500" required>
+                    <p class="c-form__error" id="f-link-error" hidden></p>
+                  </div>
+                </fieldset>
+
+                <!-- Campo trampa anti-spam: oculto a personas, los bots suelen llenarlo -->
+                <div class="u-visually-hidden" aria-hidden="true">
+                  <label>No llenar este campo<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+                </div>
+
+                <div class="c-form__actions">
+                  <button class="c-btn c-btn--solid" type="submit">Enviar</button>
+                  <p class="c-form__status" role="status" aria-live="polite" data-status></p>
+                </div>
+              </form>
+
+              <section class="c-offices" aria-labelledby="offices-title">
+                <h2 class="c-offices__title" id="offices-title">Dónde nos encontramos</h2>
+                <address class="c-offices__item">
+                  <h3 class="c-offices__city">Mérida</h3>
+                  <p>Calle 13 #290 con Calle 6 Montebello, 97113 Mérida, Yucatán, México</p>
+                  <p><a class="c-offices__link" href="tel:+529994363273">+52 (999) 436-3273</a></p>
+                  <p><a class="c-offices__link" href="mailto:admin@vr-expresslogistics.com">admin@vr-expresslogistics.com</a></p>
+                </address>
+                <address class="c-offices__item">
+                  <h3 class="c-offices__city">Nuevo Laredo</h3>
+                  <p>Hidalgo No. 3331 Centro, 88000 Nuevo Laredo, Tamaulipas, México</p>
+                  <p><a class="c-offices__link" href="tel:+528672334728">+52 (867) 233-4728</a></p>
+                  <p><a class="c-offices__link" href="mailto:nvolaredo@vr-expresslogistics.com">nvolaredo@vr-expresslogistics.com</a></p>
+                </address>
+                <address class="c-offices__item">
+                  <h3 class="c-offices__city">Laredo</h3>
+                  <p>8620 San Gabriel Dr, Laredo, Texas, USA</p>
+                  <p><a class="c-offices__link" href="tel:+13465630739">+1 (346) 563-0739</a></p>
+                  <p><a class="c-offices__link" href="mailto:laredo@vr-expresslogistics.com">laredo@vr-expresslogistics.com</a></p>
+                </address>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="c-footer" data-component="footer">
+      <p class="c-footer__copy">Copyright © <span data-year>2025</span> VR Express is a registered trademark of VRI Freight S.A. de C.V. All rights reserved.</p>
+      <div class="c-footer__social">
+        <p class="c-footer__social-text">Síguenos en redes sociales</p>
+        <ul class="c-footer__list">
+          <!-- href="#" PROVISIONAL -->
+          <li><a class="c-footer__link" href="#" aria-label="Facebook"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-facebook-400.avif 400w, ../../assets/images/optimized/home-redes-facebook-512.avif 512w" sizes="28px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-facebook-400.webp 400w, ../../assets/images/optimized/home-redes-facebook-512.webp 512w" sizes="28px"><img class="c-footer__icon c-footer__icon--fb" src="../../assets/images/optimized/home-redes-facebook-512.png" srcset="../../assets/images/optimized/home-redes-facebook-400.png 400w, ../../assets/images/optimized/home-redes-facebook-512.png 512w" sizes="28px" width="28" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="Instagram"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-instagram-400.avif 400w, ../../assets/images/optimized/home-redes-instagram-512.avif 512w" sizes="28px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-instagram-400.webp 400w, ../../assets/images/optimized/home-redes-instagram-512.webp 512w" sizes="28px"><img class="c-footer__icon c-footer__icon--ig" src="../../assets/images/optimized/home-redes-instagram-512.png" srcset="../../assets/images/optimized/home-redes-instagram-400.png 400w, ../../assets/images/optimized/home-redes-instagram-512.png 512w" sizes="28px" width="28" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="TikTok"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-tiktok-304.avif 304w" sizes="25px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-tiktok-304.webp 304w" sizes="25px"><img class="c-footer__icon c-footer__icon--tt" src="../../assets/images/optimized/home-redes-tiktok-304.png" srcset="../../assets/images/optimized/home-redes-tiktok-304.png 304w" sizes="25px" width="25" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="X"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-x-400.avif 400w, ../../assets/images/optimized/home-redes-x-512.avif 512w" sizes="30px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-x-400.webp 400w, ../../assets/images/optimized/home-redes-x-512.webp 512w" sizes="30px"><img class="c-footer__icon c-footer__icon--x" src="../../assets/images/optimized/home-redes-x-512.png" srcset="../../assets/images/optimized/home-redes-x-400.png 400w, ../../assets/images/optimized/home-redes-x-512.png 512w" sizes="30px" width="30" height="28" loading="lazy" alt=""></picture></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* c-title: titulo de pagina o seccion (garantia, servicios, contacto). */
+.c-title {
+  margin: 0;
+  font-family: var(--font-base);
+  font-size: var(--fs-36);
+  font-weight: var(--fw-bold);
+  color: var(--color-primary);
+}
+
+.c-title--caps { text-transform: uppercase; }
+.c-title--center { text-align: center; }
+.c-title--md { font-size: var(--fs-32); }

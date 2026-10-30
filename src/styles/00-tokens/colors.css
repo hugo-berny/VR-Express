@@ -11,4 +11,10 @@
   --color-text-soft: rgba(0,0,0,0.75);
   --color-text-inverse-soft: rgba(255,255,255,0.85);
   --color-placeholder: #D9D9D9;
+
+  /* Paginas garantia / servicios / contacto (specs/pages-secundarias.md). Derivados de --color-primary */
+  --color-primary-8: rgba(30,115,233,0.08); /* fondo tarjetas servicios y campos de formulario */
+  --color-primary-70: rgba(30,115,233,0.7); /* etiquetas de formulario */
+  /* PROVISIONAL: rojo del icono de articulos prohibidos y estados de error (sin token en Figma) */
+  --color-danger: #C94A47;
 }

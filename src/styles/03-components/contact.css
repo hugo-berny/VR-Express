@@ -1,0 +1,25 @@
+/* c-contact: pagina /contacto (Figma 1:4349). Titulo + formulario + oficinas. */
+.c-contact {
+  padding-block: var(--space-60) var(--space-80);
+  font-family: var(--font-base);
+}
+
+.c-contact__inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-60);
+}
+
+.c-contact__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-60);
+  align-items: start;
+}
+
+@media (min-width: 64em) {
+  .c-contact__grid {
+    grid-template-columns: minmax(0, var(--size-form-w)) minmax(0, var(--size-offices-w));
+    justify-content: space-between;
+  }
+}

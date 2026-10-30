@@ -1,0 +1,47 @@
+/* c-btn: boton/enlace. Variantes: --outline ("Conoce mas"), --solid ("Enviar"). Hover/focus: A-09 pendiente, outline nativo. */
+.c-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: var(--space-5) var(--space-10);
+  font-family: var(--font-base);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-semibold);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Area interactiva >= 44px sin cambiar el tamaño visual (A-07 A) */
+.c-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max(100%, var(--size-tap));
+  height: var(--size-tap);
+  transform: translate(-50%, -50%);
+}
+
+.c-btn--outline {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: var(--border-1-8) solid var(--color-primary);
+  border-radius: var(--radius-8);
+}
+
+.c-btn--solid {
+  min-inline-size: var(--size-cta-btn-w);
+  padding-block: var(--space-10);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: 0;
+  border-radius: var(--radius-3);
+  font-weight: var(--fw-bold);
+}
+
+.c-btn:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
