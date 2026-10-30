@@ -1,5 +1,6 @@
 /* Radios, sombras y bordes. Valores exactos de Figma. Naming: --radius-*, --shadow-*, --border-*, --stroke-* */
 :root {
+  --z-header: 10;
   --radius-3: 3px;
   --radius-8: 8px;
   --radius-15: 15px;

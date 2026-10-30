@@ -1,5 +1,8 @@
 /* c-header — spec specs/home.md, nodo Figma 1:4095. Sin JS. */
 .c-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
   display: flex;
   flex-wrap: wrap; /* PROVISIONAL: A-01 (sin diseño 375/768); evita desborde */
   align-items: center;
