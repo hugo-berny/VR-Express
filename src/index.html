@@ -11,11 +11,14 @@
   <svg class="u-visually-hidden" width="0" height="0" aria-hidden="true" focusable="false"><symbol id="review-star" viewBox="0 0 24 24"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></symbol></svg>
   <div class="l-page">
     <!-- /pages/rastreo/ PROVISIONAL: pagina aun sin construir -->
-    <header class="c-header">
+    <header class="c-header" data-component="header">
       <a class="c-header__logo" href="index.html" aria-label="VR Express, inicio">
         <picture><source type="image/avif" srcset="assets/images/optimized/header-logo-vrexpress-400.avif 400w, assets/images/optimized/header-logo-vrexpress-800.avif 800w, assets/images/optimized/header-logo-vrexpress-1200.avif 1200w, assets/images/optimized/header-logo-vrexpress-1920.avif 1920w" sizes="212px"><source type="image/webp" srcset="assets/images/optimized/header-logo-vrexpress-400.webp 400w, assets/images/optimized/header-logo-vrexpress-800.webp 800w, assets/images/optimized/header-logo-vrexpress-1200.webp 1200w, assets/images/optimized/header-logo-vrexpress-1920.webp 1920w" sizes="212px"><img src="assets/images/optimized/header-logo-vrexpress-1920.png" srcset="assets/images/optimized/header-logo-vrexpress-400.png 400w, assets/images/optimized/header-logo-vrexpress-800.png 800w, assets/images/optimized/header-logo-vrexpress-1200.png 1200w, assets/images/optimized/header-logo-vrexpress-1920.png 1920w" sizes="212px" width="212" height="43" alt="VR Express"></picture>
       </a>
-      <nav class="c-header__nav" aria-label="Principal">
+      <button class="c-header__toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú">
+        <span class="c-header__burger" aria-hidden="true"></span>
+      </button>
+      <nav class="c-header__nav" id="site-nav" aria-label="Principal">
         <a class="c-header__link" href="pages/servicios/index.html">Servicios</a>
         <a class="c-header__link" href="pages/garantia/index.html">Garantía</a>
         <a class="c-header__link c-header__link--current" href="pages/rastreo/index.html">Rastrea tu envío</a>
@@ -24,7 +27,7 @@
     </header>
 
     <main>
-      <section class="l-container">
+      <section class="l-container l-container--home">
         <div class="c-hero">
           <div class="c-hero__text">
             <h1 class="c-hero__title">Importación express de EEUU a México</h1>
@@ -35,7 +38,7 @@
         </div>
       </section>
 
-      <div class="l-container">
+      <div class="l-container l-container--home">
         <section class="c-intro" aria-labelledby="intro-title">
           <h2 class="c-intro__title" id="intro-title">¿Qué hacemos?</h2>
           <p class="c-intro__text">Somos <strong>VR Express</strong>, <span class="c-intro__highlight">especialistas en importar</span> de Estados Unidos a México. Nos encargamos de todo el proceso: recibimos y almacenamos tu mercancía, gestionamos el despacho aduanal y la entregamos en destino, con seguimiento en tiempo real. <span class="c-intro__muted">Conocemos los permisos, normas y clasificación arancelaria de cada sector, para que tu importación llegue completa y en regla.</span></p>
@@ -43,7 +46,7 @@
       </div>
 
       <section class="c-services" aria-labelledby="services-title">
-        <div class="c-services__content">
+        <div class="c-services__content l-container--home">
           <h2 class="c-services__title" id="services-title">Nuestros servicios</h2>
           <ul class="c-services__list">
         <li class="c-services__row c-services__row--first">
@@ -90,7 +93,7 @@
         </div>
       </section>
 
-      <div class="l-container">
+      <div class="l-container l-container--home">
         <section class="c-testimonials" aria-labelledby="testimonials-title">
           <h2 class="c-testimonials__title" id="testimonials-title">Lo que opinan nuestros clientes</h2>
           <ul class="c-testimonials__grid">
@@ -154,7 +157,7 @@
         </ul>
       </section>
 
-      <div class="l-container">
+      <div class="l-container l-container--home">
         <section class="c-cta" aria-labelledby="cta-title">
           <h2 class="c-cta__title" id="cta-title">Optimiza tu cadena de suministro con VR Express</h2>
           <!-- PROVISIONAL: href="#" (falta destino) -->

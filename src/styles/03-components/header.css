@@ -1,4 +1,4 @@
-/* c-header — spec specs/home.md, nodo Figma 1:4095. Sin JS. */
+/* c-header — spec specs/home.md, nodo Figma 1:4095. Movil: logo + hamburguesa (header.js). */
 .c-header {
   position: sticky;
   top: 0;
@@ -11,7 +11,7 @@
   box-sizing: border-box;
   width: 100%;
   min-height: var(--size-header-h);
-  padding: var(--space-12) var(--space-40);
+  padding: var(--space-12) var(--space-20);
   background-color: var(--color-white);
   box-shadow: var(--shadow-header); /* PROVISIONAL: A-13 (instancia 1:4095) */
   font-family: var(--font-base);
@@ -28,11 +28,73 @@
   height: var(--size-logo-h);
 }
 
-.c-header__nav {
-  display: flex;
-  flex-wrap: wrap;
+.c-header__toggle {
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-44);
+  justify-content: center;
+  flex: none;
+  min-width: var(--size-tap);
+  min-height: var(--size-tap);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+/* Hamburguesa: barra central + ::before/::after; se transforma en X al abrir */
+.c-header__burger,
+.c-header__burger::before,
+.c-header__burger::after {
+  display: block;
+  width: var(--size-burger-w);
+  height: var(--size-burger-bar);
+  border-radius: var(--radius-3);
+  background-color: currentColor;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.c-header__burger {
+  position: relative;
+}
+
+.c-header__burger::before,
+.c-header__burger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.c-header__burger::before { top: var(--space-neg-8); }
+.c-header__burger::after { top: var(--space-8); }
+
+.c-header--open .c-header__burger { background-color: transparent; }
+.c-header--open .c-header__burger::before { transform: translateY(var(--space-8)) rotate(45deg); }
+.c-header--open .c-header__burger::after { transform: translateY(var(--space-neg-8)) rotate(-45deg); }
+
+/* Movil: panel desplegable bajo la barra */
+.c-header__nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-10);
+  padding: var(--space-20);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-header);
+}
+
+.c-header--open .c-header__nav {
+  display: flex;
+}
+
+.c-header__nav .c-header__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--size-tap);
 }
 
 .c-header__logo,
@@ -80,3 +142,30 @@
 }
 
 /* Estados hover/focus/active: BLOQUEADO A-09; se conserva outline nativo. */
+
+@media (min-width: 48em) {
+  .c-header {
+    padding-inline: var(--space-40);
+  }
+
+  .c-header__toggle {
+    display: none;
+  }
+
+  .c-header__nav {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-44);
+    padding: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  .c-header__nav .c-header__link {
+    display: inline;
+    min-height: 0;
+  }
+}

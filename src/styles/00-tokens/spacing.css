@@ -2,12 +2,14 @@
 :root {
   /* Espaciado */
   --space-neg-1: -1px;
+  --space-neg-8: -8px;
   --space-neg-20: -20px;
   --space-neg-40: -40px;
   --space-2: 2px;
   --space-5: 5px;
   --space-6: 6px;
   --space-7: 7px;
+  --space-8: 8px;
   --space-10: 10px;
   /* PROVISIONAL: A-13 (padding vert. del header, instancia 1:4095) */
   --space-12: 12px;
@@ -50,6 +52,9 @@
   --size-header-h: 67px;
   --size-logo-w: 212px;
   --size-logo-h: 43px;
+  /* Menu hamburguesa movil (sin diseño Figma) */
+  --size-burger-w: 24px;
+  --size-burger-bar: 2px;
   --size-contact-btn-w: 108px;
   --size-contact-btn-h: 29px;
   --size-link-btn: 40px;

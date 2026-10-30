@@ -31,6 +31,10 @@
   max-inline-size: calc(var(--size-container) + 2 * var(--space-40));
 }
 
+.l-container--home {
+  padding-inline: var(--space-20);
+}
+
 .l-narrow {
   width: 100%;
   min-width: 0;
@@ -40,8 +44,19 @@
 }
 
 @media (min-width: 48em) {
+  .l-container--home {
+    padding-inline: var(--space-40);
+  }
+
   .l-container--gutter,
   .l-narrow {
     padding-inline: var(--space-40);
+  }
+}
+
+/* Home: el gutter solo aplica bajo 64em; en escritorio el diseño de Figma va a ras del contenedor */
+@media (min-width: 64em) {
+  .l-container--home {
+    padding-inline: 0;
   }
 }

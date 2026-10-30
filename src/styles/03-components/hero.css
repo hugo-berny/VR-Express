@@ -28,7 +28,7 @@
 
 .c-hero__title {
   margin: 0;
-  font-size: var(--fs-76);
+  font-size: var(--fs-36); /* movil: 76px partia las palabras en 375 */
   font-weight: var(--fw-bold);
   line-height: var(--lh-hero);
   color: var(--color-white);
@@ -36,7 +36,7 @@
 
 .c-hero__subtitle {
   margin: 0;
-  font-size: var(--fs-32);
+  font-size: var(--fs-20);
   font-weight: var(--fw-semibold);
   color: var(--color-text-inverse-soft);
 }
@@ -49,6 +49,16 @@
   height: auto;
   aspect-ratio: var(--ratio-hero);
   object-fit: cover;
+}
+
+@media (min-width: 48em) {
+  .c-hero__title {
+    font-size: var(--fs-76);
+  }
+
+  .c-hero__subtitle {
+    font-size: var(--fs-32);
+  }
 }
 
 @media (min-width: 64em) {
