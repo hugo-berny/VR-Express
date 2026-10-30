@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  min-block-size: 100dvh; /* el footer nunca queda a media pantalla en paginas cortas */
   background: var(--color-white);
   overflow-x: clip; /* la imagen del hero sobresale del recuadro */
 }
