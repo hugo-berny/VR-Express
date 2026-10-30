@@ -1,0 +1,72 @@
+/* c-track-route: linea de tiempo vertical "Ruta del envio". Pasos creados por components/tracking.js (data-state). */
+.c-track-route {
+  display: grid;
+  gap: var(--space-25);
+  align-content: start;
+}
+
+.c-track-route__heading {
+  margin: 0;
+  font-size: var(--fs-20);
+  font-weight: var(--fw-semibold);
+  color: var(--color-primary);
+}
+
+.c-track-route__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c-track-route__step {
+  --step-color: var(--color-pending);
+  position: relative;
+  padding-block-end: var(--space-15);
+  padding-inline-start: var(--space-20);
+}
+
+.c-track-route__step[data-state="completado"] { --step-color: var(--color-success); }
+.c-track-route__step[data-state="actual"] { --step-color: var(--color-progress); }
+
+/* Punto */
+.c-track-route__step::before {
+  content: "";
+  position: absolute;
+  inset-block-start: var(--space-5);
+  inset-inline-start: 0;
+  inline-size: var(--size-dot);
+  block-size: var(--size-dot);
+  background-color: var(--step-color);
+  border-radius: var(--radius-circle);
+}
+
+/* Conector hasta el siguiente paso */
+.c-track-route__step::after {
+  content: "";
+  position: absolute;
+  inset-block: var(--space-20) var(--space-10);
+  inset-inline-start: calc((var(--size-dot) - var(--size-route-line)) / 2);
+  inline-size: var(--size-route-line);
+  background-color: var(--step-color);
+}
+
+.c-track-route__title,
+.c-track-route__meta {
+  margin: 0;
+  line-height: var(--lh-body);
+}
+
+.c-track-route__title {
+  font-size: var(--fs-15);
+  font-weight: var(--fw-semibold);
+}
+
+.c-track-route__meta {
+  padding-inline-start: var(--space-15);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+}
+
+/* Paso actual: texto en azul */
+.c-track-route__step[data-state="actual"] .c-track-route__title,
+.c-track-route__step[data-state="actual"] .c-track-route__meta { color: var(--color-progress); }

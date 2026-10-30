@@ -17,4 +17,10 @@
   --color-primary-70: rgba(30,115,233,0.7); /* etiquetas de formulario */
   /* PROVISIONAL: rojo del icono de articulos prohibidos y estados de error (sin token en Figma) */
   --color-danger: #C94A47;
+
+  /* Pagina rastreo (specs/rastreo.md). Muestreados de la captura; PROVISIONAL hasta leer Figma */
+  --color-success: #6AD04F; /* paso completado de la ruta */
+  --color-progress: #6594E8; /* paso actual de la ruta */
+  --color-pending: #666666; /* paso pendiente de la ruta */
+  --color-pill: #E5E5E5; /* fondo de las pildoras de pedido y estatus */
 }

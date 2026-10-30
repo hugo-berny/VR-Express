@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rastrea tu envío | VR Express</title>
+  <meta name="description" content="Consulta el estado y la ruta de tu envío con tu número de pedido de VR Express.">
+  <link rel="stylesheet" href="../../styles/main.css">
+  <script type="module" src="../../scripts/main.js"></script>
+</head>
+<body>
+  <div class="l-page">
+    <header class="c-header">
+      <a class="c-header__logo" href="../../index.html" aria-label="VR Express, inicio">
+        <picture><source type="image/avif" srcset="../../assets/images/optimized/header-logo-vrexpress-400.avif 400w, ../../assets/images/optimized/header-logo-vrexpress-800.avif 800w, ../../assets/images/optimized/header-logo-vrexpress-1200.avif 1200w, ../../assets/images/optimized/header-logo-vrexpress-1920.avif 1920w" sizes="212px"><source type="image/webp" srcset="../../assets/images/optimized/header-logo-vrexpress-400.webp 400w, ../../assets/images/optimized/header-logo-vrexpress-800.webp 800w, ../../assets/images/optimized/header-logo-vrexpress-1200.webp 1200w, ../../assets/images/optimized/header-logo-vrexpress-1920.webp 1920w" sizes="212px"><img src="../../assets/images/optimized/header-logo-vrexpress-1920.png" srcset="../../assets/images/optimized/header-logo-vrexpress-400.png 400w, ../../assets/images/optimized/header-logo-vrexpress-800.png 800w, ../../assets/images/optimized/header-logo-vrexpress-1200.png 1200w, ../../assets/images/optimized/header-logo-vrexpress-1920.png 1920w" sizes="212px" width="212" height="43" alt="VR Express"></picture>
+      </a>
+      <nav class="c-header__nav" aria-label="Principal">
+        <a class="c-header__link" href="../servicios/index.html">Servicios</a>
+        <a class="c-header__link" href="../garantia/index.html">Garantía</a>
+        <a class="c-header__link c-header__link--current" href="../rastreo/index.html">Rastrea tu envío</a>
+        <a class="c-header__contact" href="../contacto/index.html">Contacto</a>
+      </nav>
+    </header>
+
+    <main class="c-tracking" aria-labelledby="tracking-title" data-component="tracking">
+      <h1 class="c-title c-title--center c-tracking__title" id="tracking-title">Consulta el estado de tu envío</h1>
+
+      <!-- Datos via services/tracking.js (mock hasta conectar Supabase). novalidate: valida el servicio -->
+      <form class="c-track-search" method="post" action="#" novalidate data-form>
+        <label class="c-track-search__label" for="t-pedido">Número de pedido</label>
+        <div class="c-track-search__box">
+          <input class="c-track-search__input" id="t-pedido" name="pedido" type="text" maxlength="32" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="t-pedido-error">
+          <button class="c-btn c-btn--solid c-track-search__btn" type="submit">Buscar</button>
+        </div>
+        <p class="c-track-search__error" id="t-pedido-error" role="alert" hidden data-error></p>
+      </form>
+
+      <div class="c-track-card" role="region" aria-label="Resultado de tu envío" hidden data-card>
+        <dl class="c-track-card__data">
+          <div class="c-track-card__item">
+            <dt class="c-track-card__label">Número de pedido</dt>
+            <dd class="c-track-card__value c-track-card__value--pill" data-field="numeroPedido"></dd>
+          </div>
+          <div class="c-track-card__item">
+            <dt class="c-track-card__label">Estatus</dt>
+            <dd class="c-track-card__value c-track-card__value--pill" data-field="estatus"></dd>
+          </div>
+          <div class="c-track-card__item">
+            <dt class="c-track-card__label">Fecha estimada de entrega</dt>
+            <dd class="c-track-card__value" data-field="fechaEstimada"></dd>
+          </div>
+          <div class="c-track-card__item">
+            <dt class="c-track-card__label">Tracking Number</dt>
+            <dd class="c-track-card__value c-track-card__value--tracking" data-field="numeroSeguimiento"></dd>
+          </div>
+        </dl>
+
+        <section class="c-track-route" aria-labelledby="route-title">
+          <h2 class="c-track-route__heading" id="route-title">Ruta del envío</h2>
+          <ol class="c-track-route__list" data-route></ol>
+        </section>
+
+        <div class="c-track-card__help">
+          <a class="c-track-card__help-title" href="../contacto/index.html">¿Necesitas ayuda con tu envío?</a>
+          <p class="c-track-card__help-text">Nuestro equipo puede ayudarte con el seguimiento.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="c-footer" data-component="footer">
+      <p class="c-footer__copy">Copyright © <span data-year>2025</span> VR Express is a registered trademark of VRI Freight S.A. de C.V. All rights reserved.</p>
+      <div class="c-footer__social">
+        <p class="c-footer__social-text">Síguenos en redes sociales</p>
+        <ul class="c-footer__list">
+          <!-- href="#" PROVISIONAL -->
+          <li><a class="c-footer__link" href="#" aria-label="Facebook"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-facebook-400.avif 400w, ../../assets/images/optimized/home-redes-facebook-512.avif 512w" sizes="28px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-facebook-400.webp 400w, ../../assets/images/optimized/home-redes-facebook-512.webp 512w" sizes="28px"><img class="c-footer__icon c-footer__icon--fb" src="../../assets/images/optimized/home-redes-facebook-512.png" srcset="../../assets/images/optimized/home-redes-facebook-400.png 400w, ../../assets/images/optimized/home-redes-facebook-512.png 512w" sizes="28px" width="28" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="Instagram"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-instagram-400.avif 400w, ../../assets/images/optimized/home-redes-instagram-512.avif 512w" sizes="28px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-instagram-400.webp 400w, ../../assets/images/optimized/home-redes-instagram-512.webp 512w" sizes="28px"><img class="c-footer__icon c-footer__icon--ig" src="../../assets/images/optimized/home-redes-instagram-512.png" srcset="../../assets/images/optimized/home-redes-instagram-400.png 400w, ../../assets/images/optimized/home-redes-instagram-512.png 512w" sizes="28px" width="28" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="TikTok"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-tiktok-304.avif 304w" sizes="25px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-tiktok-304.webp 304w" sizes="25px"><img class="c-footer__icon c-footer__icon--tt" src="../../assets/images/optimized/home-redes-tiktok-304.png" srcset="../../assets/images/optimized/home-redes-tiktok-304.png 304w" sizes="25px" width="25" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="X"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-x-400.avif 400w, ../../assets/images/optimized/home-redes-x-512.avif 512w" sizes="30px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-x-400.webp 400w, ../../assets/images/optimized/home-redes-x-512.webp 512w" sizes="30px"><img class="c-footer__icon c-footer__icon--x" src="../../assets/images/optimized/home-redes-x-512.png" srcset="../../assets/images/optimized/home-redes-x-400.png 400w, ../../assets/images/optimized/home-redes-x-512.png 512w" sizes="30px" width="30" height="28" loading="lazy" alt=""></picture></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

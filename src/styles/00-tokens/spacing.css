@@ -11,6 +11,7 @@
   --space-10: 10px;
   /* PROVISIONAL: A-13 (padding vert. del header, instancia 1:4095) */
   --space-12: 12px;
+  --space-15: 15px;
   --space-19: 19px;
   --space-20: 20px;
   --space-25: 25px;
@@ -26,6 +27,7 @@
   --space-60: 60px;
   --space-70: 70px;
   --space-80: 80px;
+  --space-90: 90px;
   --space-110: 110px;
 
   /* Tamaños */
@@ -78,6 +80,13 @@
   --size-offices-w: 476px;
   --size-textarea-h: 100px;
   --size-check: 20px;
+
+  /* Pagina rastreo (captura a escala 1.14, frame 1280). PROVISIONAL */
+  --size-search-w: 574px;
+  --size-search-h: 47px;
+  --size-search-btn-w: 93px;
+  --size-dot: 10px;
+  --size-route-line: 2px;
 
   --ratio-offer-wide: 16 / 9; /* PROVISIONAL: imagen de servicios en movil */
   --ratio-trust: 350 / 136;

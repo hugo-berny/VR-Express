@@ -35,5 +35,8 @@
 @import url("03-components/contact.css") layer(components);
 @import url("03-components/form.css") layer(components);
 @import url("03-components/offices.css") layer(components);
+@import url("03-components/tracking.css") layer(components);
+@import url("03-components/tracking-card.css") layer(components);
+@import url("03-components/tracking-route.css") layer(components);
 
 @import url("04-utilities/a11y.css") layer(utilities);

@@ -1,0 +1,87 @@
+/* c-track-card: tarjeta blanca de resultado (columna de datos + ruta + ayuda). Oculta hasta que hay resultado. */
+.c-track-card {
+  display: grid;
+  gap: var(--space-40);
+  box-sizing: border-box;
+  inline-size: min(100%, var(--size-narrow));
+  padding: var(--space-40) var(--space-25);
+  background-color: var(--color-white);
+  border-radius: var(--radius-40);
+  color: var(--color-black);
+}
+
+.c-track-card[hidden] { display: none; }
+
+.c-track-card__data {
+  display: grid;
+  gap: var(--space-25);
+  align-content: start;
+  margin: 0;
+}
+
+.c-track-card__item {
+  display: grid;
+  gap: var(--space-10);
+  justify-items: start;
+}
+
+.c-track-card__label {
+  margin: 0;
+  font-size: var(--fs-20);
+  font-weight: var(--fw-medium);
+  color: var(--color-text-soft);
+}
+
+.c-track-card__value {
+  margin: 0;
+  font-size: var(--fs-24);
+  font-weight: var(--fw-bold);
+  overflow-wrap: anywhere;
+}
+
+.c-track-card__value--pill {
+  padding: var(--space-5) var(--space-15);
+  background-color: var(--color-pill);
+  border-radius: var(--radius-30);
+  color: var(--color-primary);
+  font-size: var(--fs-32);
+}
+
+/* Estatus: la lista aun no esta definida; sin variante conocida se ve neutro */
+.c-track-card__value--pill[data-variant="success"] { color: var(--color-success); }
+.c-track-card__value--pill[data-variant="neutral"] { color: var(--color-text-soft); }
+
+.c-track-card__value--tracking {
+  font-size: var(--fs-20);
+  font-weight: var(--fw-medium);
+  text-decoration: underline;
+}
+
+.c-track-card__help {
+  display: grid;
+  gap: var(--space-5);
+  justify-items: center;
+  text-align: center;
+}
+
+.c-track-card__help-title {
+  font-size: var(--fs-18);
+  font-weight: var(--fw-semibold);
+  color: var(--color-primary);
+}
+
+.c-track-card__help-text {
+  margin: 0;
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+}
+
+@media (min-width: 48em) {
+  .c-track-card {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-40);
+    padding: var(--space-55) var(--space-80) var(--space-40);
+  }
+
+  .c-track-card__help { grid-column: 1 / -1; }
+}

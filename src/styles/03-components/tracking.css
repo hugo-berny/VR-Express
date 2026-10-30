@@ -1,0 +1,84 @@
+/* c-tracking: pagina /rastreo (captura rastreo.png; API Figma en 429). Titulo + buscador + tarjeta de resultado. Logica en components/tracking.js */
+.c-tracking {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-60);
+  padding: var(--space-60) var(--space-20) var(--space-80);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-base);
+}
+
+.c-tracking__title { color: var(--color-white); }
+
+.c-track-search {
+  display: grid;
+  gap: var(--space-10);
+  inline-size: min(100%, var(--size-search-w));
+}
+
+.c-track-search__label {
+  font-size: var(--fs-20);
+  font-weight: var(--fw-medium);
+}
+
+.c-track-search__box {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  min-block-size: var(--size-search-h);
+  padding: var(--space-2);
+  background-color: var(--color-white);
+  border: var(--stroke-2-5) solid var(--color-white);
+  border-radius: var(--radius-17);
+}
+
+.c-track-search__input {
+  flex: 1;
+  min-inline-size: 0;
+  min-block-size: var(--size-tap);
+  padding-inline: var(--space-19);
+  background: transparent;
+  border: 0;
+  color: var(--color-black);
+  font-family: inherit;
+  font-size: var(--fs-16);
+  text-transform: uppercase;
+}
+
+.c-track-search__input::placeholder { text-transform: none; }
+.c-track-search__input:focus-visible { outline: none; }
+
+.c-track-search__box:focus-within {
+  outline: var(--stroke-2-5) solid var(--color-white);
+  outline-offset: var(--space-2);
+}
+
+.c-track-search__box:has([aria-invalid="true"]) { border-color: var(--color-danger); }
+
+.c-track-search__btn {
+  min-inline-size: var(--size-search-btn-w);
+  min-block-size: var(--size-tap);
+  border-radius: var(--radius-15);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-medium);
+}
+
+/* Error sobre fondo azul: el rojo no contrasta, va en una caja blanca */
+.c-track-search__error {
+  margin: 0;
+  padding: var(--space-10) var(--space-15);
+  background-color: var(--color-white);
+  border-radius: var(--radius-8);
+  color: var(--color-danger);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+}
+
+.c-track-search__error[hidden] { display: none; }
+
+@media (min-width: 48em) {
+  .c-tracking { padding: var(--space-90) var(--space-40) var(--space-110); }
+}

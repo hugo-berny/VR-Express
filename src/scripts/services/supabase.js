@@ -19,3 +19,4 @@ async function request(path, options = {}) {
 export const select = (table, query = '') => request(`${table}?select=*${query}`);
 export const insert = (table, row) =>
   request(table, { method: 'POST', headers: { Prefer: 'return=representation' }, body: JSON.stringify(row) });
+export const rpc = (fn, args) => request(`rpc/${fn}`, { method: 'POST', body: JSON.stringify(args) });
