@@ -15,6 +15,8 @@
   /* Paginas garantia / servicios / contacto (specs/pages-secundarias.md). Derivados de --color-primary */
   --color-primary-8: rgba(30,115,233,0.08); /* fondo tarjetas servicios y campos de formulario */
   --color-primary-70: rgba(30,115,233,0.7); /* etiquetas de formulario */
+  --color-primary-85: rgba(30,115,233,0.85); /* etiquetas de formulario en contacto (c-form__label--strong) */
+  --color-white-90: rgba(255,255,255,0.9); /* detalle de oficinas (Donde nos encontramos) */
   /* PROVISIONAL: rojo del icono de articulos prohibidos y estados de error (sin token en Figma) */
   --color-danger: #C94A47;
 

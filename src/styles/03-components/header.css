@@ -60,7 +60,7 @@
 }
 
 .c-header__link--current {
-  text-decoration: underline; /* "Rastrea tu envío" 1:4161 */
+  text-decoration: none; /* sin subrayado: se confundia con un enlace sin visitar */
 }
 
 /* El ::after se mide sobre el padding box: suma el borde para cubrir los 108px completos */

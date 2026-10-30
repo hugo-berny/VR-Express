@@ -675,39 +675,54 @@
       "maxWebpBytes": 10458
     },
     "images/optimized/home-redes-tiktok": {
-      "figmaNode": "1:4410",
       "type": "image",
-      "raw": "images/raw/home-redes-tiktok.webp",
-      "width": 304,
-      "height": 350,
+      "raw": "images/raw/home-redes-tiktok.png",
+      "width": 450,
+      "height": 515,
       "alpha": true,
       "srcset": {
-        "avif": "images/optimized/home-redes-tiktok-304.avif 304w",
-        "webp": "images/optimized/home-redes-tiktok-304.webp 304w",
-        "png": "images/optimized/home-redes-tiktok-304.png 304w"
+        "avif": "images/optimized/home-redes-tiktok-400.avif 400w, images/optimized/home-redes-tiktok-450.avif 450w",
+        "webp": "images/optimized/home-redes-tiktok-400.webp 400w, images/optimized/home-redes-tiktok-450.webp 450w",
+        "png": "images/optimized/home-redes-tiktok-400.png 400w, images/optimized/home-redes-tiktok-450.png 450w"
       },
       "variants": [
         {
           "format": "avif",
-          "width": 304,
-          "path": "images/optimized/home-redes-tiktok-304.avif",
-          "bytes": 1730
+          "width": 400,
+          "path": "images/optimized/home-redes-tiktok-400.avif",
+          "bytes": 3372
         },
         {
           "format": "webp",
-          "width": 304,
-          "path": "images/optimized/home-redes-tiktok-304.webp",
-          "bytes": 1608
+          "width": 400,
+          "path": "images/optimized/home-redes-tiktok-400.webp",
+          "bytes": 6662
         },
         {
           "format": "png",
-          "width": 304,
-          "path": "images/optimized/home-redes-tiktok-304.png",
-          "bytes": 1755
+          "width": 400,
+          "path": "images/optimized/home-redes-tiktok-400.png",
+          "bytes": 8033
+        },
+        {
+          "format": "avif",
+          "width": 450,
+          "path": "images/optimized/home-redes-tiktok-450.avif",
+          "bytes": 3785
+        },
+        {
+          "format": "webp",
+          "width": 450,
+          "path": "images/optimized/home-redes-tiktok-450.webp",
+          "bytes": 4446
+        },
+        {
+          "format": "png",
+          "width": 450,
+          "path": "images/optimized/home-redes-tiktok-450.png",
+          "bytes": 3574
         }
-      ],
-      "originalBytes": 1252,
-      "maxWebpBytes": 1608
+      ]
     },
     "images/optimized/home-redes-x": {
       "figmaNode": "1:4411",
@@ -1397,6 +1412,321 @@
           "width": 1920,
           "path": "images/optimized/servicios-innovacion-1920.jpg",
           "bytes": 408340
+        }
+      ]
+    },
+    "images/optimized/articulos-prohibidos": {
+      "type": "svg",
+      "raw": "images/raw/articulos-prohibidos.svg",
+      "variants": [
+        {
+          "format": "svg",
+          "path": "images/optimized/articulos-prohibidos.svg",
+          "bytes": 2879
+        }
+      ]
+    },
+    "images/optimized/cliente-integratium": {
+      "type": "image",
+      "raw": "images/raw/cliente-integratium.jpeg",
+      "width": 447,
+      "height": 447,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/cliente-integratium-400.avif 400w, images/optimized/cliente-integratium-447.avif 447w",
+        "webp": "images/optimized/cliente-integratium-400.webp 400w, images/optimized/cliente-integratium-447.webp 447w",
+        "jpg": "images/optimized/cliente-integratium-400.jpg 400w, images/optimized/cliente-integratium-447.jpg 447w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/cliente-integratium-400.avif",
+          "bytes": 5039
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/cliente-integratium-400.webp",
+          "bytes": 6382
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/cliente-integratium-400.jpg",
+          "bytes": 10499
+        },
+        {
+          "format": "avif",
+          "width": 447,
+          "path": "images/optimized/cliente-integratium-447.avif",
+          "bytes": 5764
+        },
+        {
+          "format": "webp",
+          "width": 447,
+          "path": "images/optimized/cliente-integratium-447.webp",
+          "bytes": 7044
+        },
+        {
+          "format": "jpg",
+          "width": 447,
+          "path": "images/optimized/cliente-integratium-447.jpg",
+          "bytes": 11773
+        }
+      ]
+    },
+    "images/optimized/cliente-ligamexicanabeisbol": {
+      "type": "image",
+      "raw": "images/raw/cliente-ligamexicanabeisbol.jpeg",
+      "width": 1024,
+      "height": 576,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/cliente-ligamexicanabeisbol-400.avif 400w, images/optimized/cliente-ligamexicanabeisbol-800.avif 800w, images/optimized/cliente-ligamexicanabeisbol-1024.avif 1024w",
+        "webp": "images/optimized/cliente-ligamexicanabeisbol-400.webp 400w, images/optimized/cliente-ligamexicanabeisbol-800.webp 800w, images/optimized/cliente-ligamexicanabeisbol-1024.webp 1024w",
+        "jpg": "images/optimized/cliente-ligamexicanabeisbol-400.jpg 400w, images/optimized/cliente-ligamexicanabeisbol-800.jpg 800w, images/optimized/cliente-ligamexicanabeisbol-1024.jpg 1024w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-400.avif",
+          "bytes": 3803
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-400.webp",
+          "bytes": 5624
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-400.jpg",
+          "bytes": 8786
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-800.avif",
+          "bytes": 5981
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-800.webp",
+          "bytes": 9846
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-800.jpg",
+          "bytes": 19678
+        },
+        {
+          "format": "avif",
+          "width": 1024,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-1024.avif",
+          "bytes": 6909
+        },
+        {
+          "format": "webp",
+          "width": 1024,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-1024.webp",
+          "bytes": 12300
+        },
+        {
+          "format": "jpg",
+          "width": 1024,
+          "path": "images/optimized/cliente-ligamexicanabeisbol-1024.jpg",
+          "bytes": 25514
+        }
+      ]
+    },
+    "images/optimized/cliente-mexburger": {
+      "type": "image",
+      "raw": "images/raw/cliente-mexburger.webp",
+      "width": 985,
+      "height": 1018,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/cliente-mexburger-400.avif 400w, images/optimized/cliente-mexburger-800.avif 800w, images/optimized/cliente-mexburger-985.avif 985w",
+        "webp": "images/optimized/cliente-mexburger-400.webp 400w, images/optimized/cliente-mexburger-800.webp 800w, images/optimized/cliente-mexburger-985.webp 985w",
+        "jpg": "images/optimized/cliente-mexburger-400.jpg 400w, images/optimized/cliente-mexburger-800.jpg 800w, images/optimized/cliente-mexburger-985.jpg 985w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/cliente-mexburger-400.avif",
+          "bytes": 4295
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/cliente-mexburger-400.webp",
+          "bytes": 6700
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/cliente-mexburger-400.jpg",
+          "bytes": 11386
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/cliente-mexburger-800.avif",
+          "bytes": 6665
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/cliente-mexburger-800.webp",
+          "bytes": 12946
+        },
+        {
+          "format": "jpg",
+          "width": 800,
+          "path": "images/optimized/cliente-mexburger-800.jpg",
+          "bytes": 23754
+        },
+        {
+          "format": "avif",
+          "width": 985,
+          "path": "images/optimized/cliente-mexburger-985.avif",
+          "bytes": 8732
+        },
+        {
+          "format": "webp",
+          "width": 985,
+          "path": "images/optimized/cliente-mexburger-985.webp",
+          "bytes": 16716
+        },
+        {
+          "format": "jpg",
+          "width": 985,
+          "path": "images/optimized/cliente-mexburger-985.jpg",
+          "bytes": 30403
+        }
+      ]
+    },
+    "images/optimized/cliente-mundohipico": {
+      "type": "image",
+      "raw": "images/raw/cliente-mundohipico.jpeg",
+      "width": 430,
+      "height": 436,
+      "alpha": false,
+      "srcset": {
+        "avif": "images/optimized/cliente-mundohipico-400.avif 400w, images/optimized/cliente-mundohipico-430.avif 430w",
+        "webp": "images/optimized/cliente-mundohipico-400.webp 400w, images/optimized/cliente-mundohipico-430.webp 430w",
+        "jpg": "images/optimized/cliente-mundohipico-400.jpg 400w, images/optimized/cliente-mundohipico-430.jpg 430w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/cliente-mundohipico-400.avif",
+          "bytes": 6355
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/cliente-mundohipico-400.webp",
+          "bytes": 8686
+        },
+        {
+          "format": "jpg",
+          "width": 400,
+          "path": "images/optimized/cliente-mundohipico-400.jpg",
+          "bytes": 13883
+        },
+        {
+          "format": "avif",
+          "width": 430,
+          "path": "images/optimized/cliente-mundohipico-430.avif",
+          "bytes": 7857
+        },
+        {
+          "format": "webp",
+          "width": 430,
+          "path": "images/optimized/cliente-mundohipico-430.webp",
+          "bytes": 9644
+        },
+        {
+          "format": "jpg",
+          "width": 430,
+          "path": "images/optimized/cliente-mundohipico-430.jpg",
+          "bytes": 14446
+        }
+      ]
+    },
+    "images/optimized/formas-pago": {
+      "type": "image",
+      "raw": "images/raw/formas-pago.png",
+      "width": 1054,
+      "height": 245,
+      "alpha": true,
+      "srcset": {
+        "avif": "images/optimized/formas-pago-400.avif 400w, images/optimized/formas-pago-800.avif 800w, images/optimized/formas-pago-1054.avif 1054w",
+        "webp": "images/optimized/formas-pago-400.webp 400w, images/optimized/formas-pago-800.webp 800w, images/optimized/formas-pago-1054.webp 1054w",
+        "png": "images/optimized/formas-pago-400.png 400w, images/optimized/formas-pago-800.png 800w, images/optimized/formas-pago-1054.png 1054w"
+      },
+      "variants": [
+        {
+          "format": "avif",
+          "width": 400,
+          "path": "images/optimized/formas-pago-400.avif",
+          "bytes": 3175
+        },
+        {
+          "format": "webp",
+          "width": 400,
+          "path": "images/optimized/formas-pago-400.webp",
+          "bytes": 3896
+        },
+        {
+          "format": "png",
+          "width": 400,
+          "path": "images/optimized/formas-pago-400.png",
+          "bytes": 6937
+        },
+        {
+          "format": "avif",
+          "width": 800,
+          "path": "images/optimized/formas-pago-800.avif",
+          "bytes": 5972
+        },
+        {
+          "format": "webp",
+          "width": 800,
+          "path": "images/optimized/formas-pago-800.webp",
+          "bytes": 8196
+        },
+        {
+          "format": "png",
+          "width": 800,
+          "path": "images/optimized/formas-pago-800.png",
+          "bytes": 15776
+        },
+        {
+          "format": "avif",
+          "width": 1054,
+          "path": "images/optimized/formas-pago-1054.avif",
+          "bytes": 8104
+        },
+        {
+          "format": "webp",
+          "width": 1054,
+          "path": "images/optimized/formas-pago-1054.webp",
+          "bytes": 11280
+        },
+        {
+          "format": "png",
+          "width": 1054,
+          "path": "images/optimized/formas-pago-1054.png",
+          "bytes": 20210
         }
       ]
     }

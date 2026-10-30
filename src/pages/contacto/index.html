@@ -31,17 +31,17 @@
               <!-- Envio por correo via endpoint (ver scripts/services/contact.js). novalidate: valida contact-form.js -->
               <form class="c-form" id="contact-form" method="post" action="#" novalidate data-component="contact-form">
                 <div class="c-form__field">
-                  <label class="c-form__label" for="f-nombre">Nombre</label>
+                  <label class="c-form__label c-form__label--strong" for="f-nombre">Nombre</label>
                   <input class="c-form__control" id="f-nombre" name="nombre" type="text" autocomplete="name" maxlength="100" required>
                   <p class="c-form__error" id="f-nombre-error" hidden></p>
                 </div>
                 <div class="c-form__field">
-                  <label class="c-form__label" for="f-contacto">Contacto (WhatsApp/Email)</label>
+                  <label class="c-form__label c-form__label--strong" for="f-contacto">Contacto (WhatsApp/Email)</label>
                   <input class="c-form__control" id="f-contacto" name="contacto" type="text" autocomplete="email" maxlength="120" required>
                   <p class="c-form__error" id="f-contacto-error" hidden></p>
                 </div>
                 <div class="c-form__field">
-                  <label class="c-form__label" for="f-mensaje">Cuéntanos cómo podemos ayudarte</label>
+                  <label class="c-form__label c-form__label--strong" for="f-mensaje">Cuéntanos cómo podemos ayudarte</label>
                   <textarea class="c-form__control" id="f-mensaje" name="mensaje" rows="4" maxlength="2000"></textarea>
                   <p class="c-form__error" id="f-mensaje-error" hidden></p>
                 </div>
@@ -57,7 +57,7 @@
                 <fieldset class="c-form__quote" id="f-quote" data-quote hidden disabled>
                   <legend class="u-visually-hidden">Datos para cotizar tu envío</legend>
                   <div class="c-form__field">
-                    <label class="c-form__label" for="f-tipo">Tipo de compra (Personal/Comercial)</label>
+                    <label class="c-form__label c-form__label--strong" for="f-tipo">Tipo de compra (Personal/Comercial)</label>
                     <select class="c-form__control" id="f-tipo" name="tipoCompra" required>
                       <option value="" selected></option>
                       <option value="Personal">Personal</option>
@@ -66,17 +66,17 @@
                     <p class="c-form__error" id="f-tipo-error" hidden></p>
                   </div>
                   <div class="c-form__field">
-                    <label class="c-form__label" for="f-peso">Peso (Kg)</label>
+                    <label class="c-form__label c-form__label--strong" for="f-peso">Peso (Kg)</label>
                     <input class="c-form__control" id="f-peso" name="pesoKg" type="number" inputmode="decimal" min="0" step="any" required>
                     <p class="c-form__error" id="f-peso-error" hidden></p>
                   </div>
                   <div class="c-form__field">
-                    <label class="c-form__label" for="f-dimensiones">Dimensiones (cm)</label>
+                    <label class="c-form__label c-form__label--strong" for="f-dimensiones">Dimensiones (cm)</label>
                     <input class="c-form__control" id="f-dimensiones" name="dimensionesCm" type="text" maxlength="60" required>
                     <p class="c-form__error" id="f-dimensiones-error" hidden></p>
                   </div>
                   <div class="c-form__field">
-                    <label class="c-form__label" for="f-link">Link de tu producto (https://...)</label>
+                    <label class="c-form__label c-form__label--strong" for="f-link">Link de tu producto (https://...)</label>
                     <input class="c-form__control" id="f-link" name="linkProducto" type="url" inputmode="url" maxlength="500" required>
                     <p class="c-form__error" id="f-link-error" hidden></p>
                   </div>
@@ -128,7 +128,7 @@
           <!-- href="#" PROVISIONAL -->
           <li><a class="c-footer__link" href="#" aria-label="Facebook"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-facebook-400.avif 400w, ../../assets/images/optimized/home-redes-facebook-512.avif 512w" sizes="28px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-facebook-400.webp 400w, ../../assets/images/optimized/home-redes-facebook-512.webp 512w" sizes="28px"><img class="c-footer__icon c-footer__icon--fb" src="../../assets/images/optimized/home-redes-facebook-512.png" srcset="../../assets/images/optimized/home-redes-facebook-400.png 400w, ../../assets/images/optimized/home-redes-facebook-512.png 512w" sizes="28px" width="28" height="28" loading="lazy" alt=""></picture></a></li>
           <li><a class="c-footer__link" href="#" aria-label="Instagram"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-instagram-400.avif 400w, ../../assets/images/optimized/home-redes-instagram-512.avif 512w" sizes="28px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-instagram-400.webp 400w, ../../assets/images/optimized/home-redes-instagram-512.webp 512w" sizes="28px"><img class="c-footer__icon c-footer__icon--ig" src="../../assets/images/optimized/home-redes-instagram-512.png" srcset="../../assets/images/optimized/home-redes-instagram-400.png 400w, ../../assets/images/optimized/home-redes-instagram-512.png 512w" sizes="28px" width="28" height="28" loading="lazy" alt=""></picture></a></li>
-          <li><a class="c-footer__link" href="#" aria-label="TikTok"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-tiktok-304.avif 304w" sizes="25px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-tiktok-304.webp 304w" sizes="25px"><img class="c-footer__icon c-footer__icon--tt" src="../../assets/images/optimized/home-redes-tiktok-304.png" srcset="../../assets/images/optimized/home-redes-tiktok-304.png 304w" sizes="25px" width="25" height="28" loading="lazy" alt=""></picture></a></li>
+          <li><a class="c-footer__link" href="#" aria-label="TikTok"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-tiktok-400.avif 400w, ../../assets/images/optimized/home-redes-tiktok-450.avif 450w" sizes="25px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-tiktok-400.webp 400w, ../../assets/images/optimized/home-redes-tiktok-450.webp 450w" sizes="25px"><img class="c-footer__icon c-footer__icon--tt" src="../../assets/images/optimized/home-redes-tiktok-450.png" srcset="../../assets/images/optimized/home-redes-tiktok-400.png 400w, ../../assets/images/optimized/home-redes-tiktok-450.png 450w" sizes="25px" width="25" height="29" loading="lazy" alt=""></picture></a></li>
           <li><a class="c-footer__link" href="#" aria-label="X"><picture><source type="image/avif" srcset="../../assets/images/optimized/home-redes-x-400.avif 400w, ../../assets/images/optimized/home-redes-x-512.avif 512w" sizes="30px"><source type="image/webp" srcset="../../assets/images/optimized/home-redes-x-400.webp 400w, ../../assets/images/optimized/home-redes-x-512.webp 512w" sizes="30px"><img class="c-footer__icon c-footer__icon--x" src="../../assets/images/optimized/home-redes-x-512.png" srcset="../../assets/images/optimized/home-redes-x-400.png 400w, ../../assets/images/optimized/home-redes-x-512.png 512w" sizes="30px" width="30" height="28" loading="lazy" alt=""></picture></a></li>
         </ul>
       </div>

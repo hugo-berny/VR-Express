@@ -119,3 +119,7 @@ textarea.c-form__control {
   justify-items: start;
   gap: var(--space-20);
 }
+
+.c-form__label--strong {
+  color: var(--color-primary-85);
+}

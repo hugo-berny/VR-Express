@@ -45,6 +45,7 @@
   width: var(--size-avatar);
   height: var(--size-avatar);
   border-radius: var(--radius-circle);
+  object-fit: cover;
   background: var(--color-placeholder);
 }
 
