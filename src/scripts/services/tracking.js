@@ -3,7 +3,7 @@
 //   { numeroPedido, estatus, fechaEstimada: 'AAAA-MM-DD', numeroSeguimiento: string|null,
 //     ruta: [{ titulo, fecha: 'AAAA-MM-DD'|null, ubicacion, estado: 'completado'|'actual'|'pendiente' }] }
 // o lanza TrackingError con code: VACIO | FORMATO | NO_ENCONTRADO | RED.
-// Sin config.supabaseUrl usa datos de prueba. Con Supabase: funcion RPC `rastrear_pedido(p_numero)` que devuelve
+// Fuente: config.trackingApiUrl (Google Sheets) > config.supabaseUrl > datos de prueba. Con Supabase: funcion RPC `rastrear_pedido(p_numero)` que devuelve
 // ese mismo JSON (o null si no existe) y solo expone esos campos, nunca datos personales.
 import { config } from '../core/config.js';
 
@@ -31,10 +31,23 @@ const MOCK_ORDERS = {
 
 const fromMock = async (numero) => MOCK_ORDERS[numero] ?? null;
 
+// Google Sheets via Apps Script Web App. GET sin headers propios para evitar preflight CORS.
+// Responde { ok: true, pedido } | { ok: false, error: 'FORMATO' | 'LIMITE' | 'NO_ENCONTRADO' }.
+async function fromSheets(numero) {
+  const res = await fetch(`${config.trackingApiUrl}?pedido=${encodeURIComponent(numero)}`, { signal: AbortSignal.timeout(15000) });
+  if (!res.ok) throw new Error(`Sheets ${res.status}`);
+  const data = await res.json();
+  if (data.ok) return data.pedido;
+  if (data.error === 'NO_ENCONTRADO') return null;
+  throw new Error(`Sheets ${data.error}`);
+}
+
 async function fromSupabase(numero) {
   const { rpc } = await import('./supabase.js');
   return rpc('rastrear_pedido', { p_numero: numero });
 }
+
+const source = () => (config.trackingApiUrl ? fromSheets : config.supabaseUrl ? fromSupabase : fromMock);
 
 export async function buscarPedido(entrada) {
   const numero = entrada.trim().toUpperCase();
@@ -43,7 +56,7 @@ export async function buscarPedido(entrada) {
 
   let pedido;
   try {
-    pedido = await (config.supabaseUrl ? fromSupabase(numero) : fromMock(numero));
+    pedido = await source()(numero);
   } catch (err) {
     console.error('[tracking]', err);
     throw new TrackingError('RED');

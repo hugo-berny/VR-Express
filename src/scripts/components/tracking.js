@@ -11,6 +11,9 @@ const MESSAGES = {
 // Estatus -> variante de color. Un estatus que no esta aqui se muestra neutro (la lista aun no esta definida).
 const STATUS_VARIANT = {
   'en tránsito': 'success',
+  'en proceso aduanal': 'success',
+  'en bodega méxico': 'success',
+  entregado: 'success',
 };
 
 const MONTHS = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
